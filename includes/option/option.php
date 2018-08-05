@@ -76,5 +76,13 @@ self::$config['enter']['verify_sms']      = true;
 self::$config['enter']['verify_call']     = true;
 self::$config['enter']['verify_sendsms']  = false;
 
+self::$sms['kavenegar']['status']             = true;
+
+self::$sms['kavenegar']['debug']              = null;
+self::$sms['kavenegar']['line']              = '10006660066600';
+self::$sms['kavenegar']['iran']               = null;
+self::$sms['kavenegar']['header']             = null;
+self::$sms['kavenegar']['footer']             = null;
+self::$sms['kavenegar']['one']                = true;
 
 ?>
