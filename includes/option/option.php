@@ -12,7 +12,7 @@ self::$config['site']['slogan'] = null;
 */
 self::$language =
 [
-	'default' => 'en',
+	'default' => 'fa',
 	'list'    => ['fa','en',],
 ];
 /**
@@ -20,7 +20,7 @@ self::$language =
  */
 
 
-self::$config['redirect']                     = 'a';
+self::$config['redirect']                     = '';
 
 self::$config['visitor'] = true;
 
@@ -39,7 +39,7 @@ self::$config['enter']['call_template_en'] = 'ermile-en';
  * first signup url
  * main redirect url . signup redirect url
  */
-self::$config['enter']['singup_redirect']     = 'a';
+self::$config['enter']['singup_redirect']     = '';
 
 
 /**

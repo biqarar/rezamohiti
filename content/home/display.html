@@ -1,8 +1,31 @@
 {%extends display.mvc%}
 
 {%block body%}
-<pre>
-  {{allPostList | dump}}
-</pre>
+<div class="pA50">
+
+
+{%if allPostList %}
+<article class="postListPreview">
+  {%for key, value in allPostList%}
+    <section class="f">
+{%if value.meta.thumb%}
+      <div class="cauto s12 pRa10 txtC">
+        <a href="{{value.url}}"><img src="{{value.meta.thumb}}" alt="{{value.title}}" width="150px"></a>
+      </div>
+{%endif%}
+      <div class="c s12">
+        <h3><a href="{{value.url}}">{{value.title}}</a></h3>
+        <p>{{value.excerpt}}</p>
+        <p>{{value.datecreated|tdate("Y-m-d H:i:s")}}</p>
+      </div>
+    </section>
+    <hr>
+  {%endfor%}
+</article>
+
+</div>
+
 {%include display.pagination%}
+{%endif%}
+
 {%endblock%}
