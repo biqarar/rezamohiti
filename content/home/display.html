@@ -15,7 +15,7 @@
 {%endif%}
       <div class="c s12">
         <h3><a href="{{value.url}}">{{value.title}}</a></h3>
-        <p>{{value.excerpt}}</p>
+        <p>{{value.content|raw}}</p>
         <p>{{value.datecreated|tdate("Y-m-d H:i:s")}}</p>
       </div>
     </section>
