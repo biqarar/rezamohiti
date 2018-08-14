@@ -1,33 +1,26 @@
 {%extends display.mvc%}
 
-{%set siftalCSS%}off{%endset%}
 
-{%block head_css%}
-
-{%endblock%}
 
 {%block body%}
 
 
+ <div class="pA100 cn">
+  <div class="wrapper" data-xhr='wrapper'>
 {%block content%}
-  <div class="page-block">
-   <div class="cn">
+   <div class="pageData">
 {%block pageTitle%}
-    <div class="tile">
-     <h2>{{pageTitle}}</h2>
-     <h3>{{pageDesc}}</h3>
-    </div>
+{%if page.title%}
+    <h2 class="pageTitle"><a href="{{url.pwd}}" class="sB3">{{page.title}}</a></h2>
+{%endif%}
 {%endblock%}
-   </div>
+{%block pageData%}{%endblock%}
   </div>
-  <div class="pc">
-   <div class="cn">
-{%block page%}{%endblock%}
-   </div>
-  </div>
-{%block pageExtra%}{%endblock%}
 {%endblock%}
  </div>
+</div>
 
-
+{{block('pageFooter')}}
 {%endblock%}
+
+
