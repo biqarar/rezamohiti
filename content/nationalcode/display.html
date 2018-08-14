@@ -1,0 +1,33 @@
+{%extends display.dash%}
+
+{%block body%}
+<div class="pA50">
+<form method="get" class="f justify-center fs18" action="{{url.this}}" data-direct data-action>
+  <div class="input c5">
+    <label for="nationalcode">National code</label>
+    <input type="number" id="nationalcode" name="nationalcode" placeholder="nationalcode" value="{{requestGET.nationalcode}}">
+
+    <button class="btn primary block mT10">Check</button>
+    <div class="">
+
+      {%if requestGET.nationalcode%}
+        {%if checkNationalCode %}
+        <div class="msg block mA5 success">This is a valid national code</div>
+        {%else%}
+        <div class="msg block mA5 danger">This is not a valid national code</div>
+        {%endif%}
+      {%endif%}
+    </div>
+    <h3 class="mT100">To generate new national code click here</h3>
+    <button class="btn success block mT10" name="new" value="1">GENERATE NEW ;)</button>
+    <div class="result">
+      {%if requestGET.new%}
+        <div class="msg block mA5 success fs20">{{newNationalcode}}</div>
+        <small class="badge primary"><a href="{{url.this}}?nationalcode={{newNationalcode}}" data-direct>check it</a></small>
+      {%endif%}
+
+    </div>
+  </div>
+</form>
+
+{%endblock%}
