@@ -1,0 +1,29 @@
+{%extends display.dash%}
+
+{%block body%}
+<div class="tbox">
+  <a href="{{url.here}}/" data-direct class="btn primary">{%trans "Back"%}</a>
+</div>
+<div class="cbox">
+
+<div class="pA50">
+<form method="get" class="f justify-center fs18" action="{{url.this}}" data-direct data-action>
+  <div class="input c5 s12">
+    <label for="text" class="mB20">{% trans "Text"%}</label>
+    <input type="text" id="text" name="text" placeholder='{% trans "Your text"%}' value="{{requestGET.text}}">
+
+    <button class="btn primary block mT10">{%trans "Calc"%}</button>
+    <div class="">
+
+      {%if requestGET.text%}
+
+        <div class="msg block mA5 pain block">{{requestGET.text}}</div>
+        <div class="msg block mA5 pain block">{{abjad | fitNumber}}</div>
+      {%endif%}
+    </div>
+
+  </div>
+</form>
+</div>
+
+{%endblock%}
