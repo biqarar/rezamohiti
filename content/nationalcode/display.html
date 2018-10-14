@@ -1,33 +1,39 @@
 {%extends display.dash%}
 
 {%block body%}
+<div class="tbox">
+  <a href="{{url.here}}/" data-direct class="btn primary">{%trans "Back"%}</a>
+</div>
+<div class="cbox">
+
 <div class="pA50">
 <form method="get" class="f justify-center fs18" action="{{url.this}}" data-direct data-action>
   <div class="input c5 s12">
-    <label for="nationalcode">National code</label>
-    <input type="number" id="nationalcode" name="nationalcode" placeholder="nationalcode" value="{{requestGET.nationalcode}}">
+    <label for="nationalcode" class="mB20">{% trans "National code"%}</label>
+    <input type="number" id="nationalcode" name="nationalcode" placeholder='{% trans "National code"%}' value="{{requestGET.nationalcode}}">
 
-    <button class="btn primary block mT10">Check</button>
+    <button class="btn primary block mT10">{%trans "Check"%}</button>
     <div class="">
 
       {%if requestGET.nationalcode%}
         {%if checkNationalCode %}
-        <div class="msg block mA5 success">This is a valid national code</div>
+        <div class="msg block mA5 success">{%trans "This is a valid national code" %}</div>
         {%else%}
-        <div class="msg block mA5 danger">This is not a valid national code</div>
+        <div class="msg block mA5 danger">{%trans "This is not a valid national code" %}</div>
         {%endif%}
       {%endif%}
     </div>
-    <h6 class="mT100 s0">To generate new national code click here</h6>
-    <button class="btn success block mT10" name="new" value="1">GENERATE NEW ;)</button>
+    <h6 class="mT100 s0">{%trans "To generate new national code click here" %}</h6>
+    <button class="btn success block mT10" name="new" value="1">{%trans "GENERATE NEW" %} ;)</button>
     <div class="result">
       {%if requestGET.new%}
         <div class="msg block success fs16 mT10">{{newNationalcode}}</div>
-        <small class="badge primary"><a href="{{url.this}}?nationalcode={{newNationalcode}}" data-direct>check it</a></small>
+        <small class="badge primary"><a href="{{url.this}}?nationalcode={{newNationalcode}}" data-direct>{%trans "check it"%}</a></small>
       {%endif%}
 
     </div>
   </div>
 </form>
+</div>
 
 {%endblock%}
