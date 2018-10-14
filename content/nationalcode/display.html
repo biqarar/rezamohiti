@@ -23,12 +23,12 @@
         {%endif%}
       {%endif%}
     </div>
-    <h6 class="mT100 s0">{%trans "To generate new national code click here" %}</h6>
+    <h6 class="mT100 s0 c0">{%trans "To generate new national code click here" %}</h6>
     <button class="btn success block mT10" name="new" value="1">{%trans "GENERATE NEW" %} ;)</button>
     <div class="result">
       {%if requestGET.new%}
         <div class="msg block success fs16 mT10">{{newNationalcode}}</div>
-        <small class="badge primary"><a href="{{url.this}}?nationalcode={{newNationalcode}}" data-direct>{%trans "check it"%}</a></small>
+        <small class="badge primary"><a href="{{url.this}}?nationalcode={{newNationalcode}}" data-direct>{%trans "Check"%}</a></small>
       {%endif%}
 
     </div>

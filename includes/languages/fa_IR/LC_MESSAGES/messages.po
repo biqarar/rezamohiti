@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Rezamohiti - Persian\n"
-"POT-Creation-Date: 2018-10-14 12:13+0330\n"
-"PO-Revision-Date: 2018-10-14 12:14+0330\n"
+"POT-Creation-Date: 2018-10-14 12:15+0330\n"
+"PO-Revision-Date: 2018-10-14 12:18+0330\n"
 "Last-Translator: Javad <J.Evazzadeh@gmail.com>\n"
 "Language-Team: Ermile <J.Evazzadeh@gmail.com>\n"
 "Language: fa_IR\n"
@@ -81,8 +81,7 @@ msgstr "جزئیات میزان استفاده"
 
 #: dash/addons/content_account/billing/detail/view.php:9
 msgid "Check your current usage and active user and price for this period of time."
-msgstr ""
-"بررسی میزان استفاده فعلی و تعداد اعضای فعال آن به‌همراه هزینه تا به این لحظه."
+msgstr "بررسی میزان استفاده فعلی و تعداد اعضای فعال آن به‌همراه هزینه تا به این لحظه."
 
 #: dash/addons/content_account/billing/invoice/view.php:8
 msgid "Invoice Detail"
@@ -137,8 +136,8 @@ msgstr "اطلاعات مالی"
 #: dash/addons/content_account/billing/view.php:11
 msgid "Check your balance, charge your account, and bill your invoices!"
 msgstr ""
-"موجودی حساب خود را چک کنید، حساب‌کاربری را شارژ کنید و فاکتورهای صادرشده را "
-"پرداخت کنید!"
+"موجودی حساب خود را چک کنید، حساب‌کاربری را شارژ کنید و فاکتورهای صادرشده را پرداخت "
+"کنید!"
 
 #: dash/addons/content_account/home/view.php:9
 #: dash/addons/content_cp/email/home/view.php:16
@@ -156,8 +155,7 @@ msgid "Dashboard"
 msgstr "داشبورد"
 
 #: dash/addons/content_account/home/view.php:10
-msgid ""
-"Account of your user to change profile details or change billing information"
+msgid "Account of your user to change profile details or change billing information"
 msgstr "حساب‌کاربری شما برای ویرایش اطلاعات پروفایل یا بررسی و افزودن اعتبار مالی"
 
 #: dash/addons/content_account/profile/other/view.php:20
@@ -235,9 +233,8 @@ msgstr "شناسه نامعتبر"
 
 #: dash/addons/content_cp/comments/edit/model.php:12
 #: dash/addons/content_cp/contact/edit/model.php:12
-#: dash/addons/content_support/ticket/show/model.php:95
-#: dash/lib/app/address.php:181 dash/lib/app/comment.php:250
-#: dash/lib/app/ticket.php:347
+#: dash/addons/content_support/ticket/show/model.php:95 dash/lib/app/address.php:181
+#: dash/lib/app/comment.php:250 dash/lib/app/ticket.php:347
 msgid "Invalid status"
 msgstr "وضعیت نامعتبر است"
 
@@ -288,8 +285,7 @@ msgstr "همچنین نظر خاص را اضافه یا ویرایش کنید."
 #: dash/addons/content_cp/log/home/view.php:13
 #: dash/addons/content_cp/posts/home/view.php:58
 #: dash/addons/content_cp/sms/template/view.php:15
-#: dash/addons/content_cp/terms/view.php:61
-#: dash/addons/content_su/tg/log/view.php:14
+#: dash/addons/content_cp/terms/view.php:61 dash/addons/content_su/tg/log/view.php:14
 msgid "Back to dashboard"
 msgstr "بازگشت به داشبورد"
 
@@ -488,8 +484,7 @@ msgstr "ویرایش مرکز راهنمایی"
 #: dash/addons/content_cp/posts/edit/view.php:62
 msgid "Helps can contain keyword and category with title and descriptions."
 msgstr ""
-"مقالات مرکز راهنمایی می‌توانند شامل کلیدواژه و دسته‌بندی همراه با عنوان و شرح "
-"باشند."
+"مقالات مرکز راهنمایی می‌توانند شامل کلیدواژه و دسته‌بندی همراه با عنوان و شرح باشند."
 
 #: dash/addons/content_cp/posts/home/view.php:23
 #: dash/addons/includes/languages/trans_dash.php:461
@@ -681,8 +676,7 @@ msgstr "دسته‌بندی‌ها"
 msgid "Check categories and add or edit some new category"
 msgstr "دسته بندی ها را بررسی کنید و برخی از دسته های جدید را اضافه یا ویرایش کنید"
 
-#: dash/addons/content_cp/terms/view.php:30
-#: dash/addons/content_cp/terms/view.php:38
+#: dash/addons/content_cp/terms/view.php:30 dash/addons/content_cp/terms/view.php:38
 #: dash/addons/content_cp/terms/view.php:47
 #: dash/addons/includes/languages/trans_dash.php:176
 #: dash/addons/includes/languages/trans_static.php:979
@@ -691,8 +685,7 @@ msgstr "دسته بندی ها را بررسی کنید و برخی از دست�
 msgid "Tags"
 msgstr "برچسب‌ها"
 
-#: dash/addons/content_cp/terms/view.php:31
-#: dash/addons/content_cp/terms/view.php:39
+#: dash/addons/content_cp/terms/view.php:31 dash/addons/content_cp/terms/view.php:39
 #: dash/addons/content_cp/terms/view.php:48
 msgid "Check tags and add or edit some new tag"
 msgstr "برچسب ها را بررسی کنید و برخی از برچسب های جدید را اضافه یا ویرایش کنید"
@@ -746,8 +739,8 @@ msgid ""
 "You can add new user and after add with minimal data, we allow you to add extra "
 "detail of user."
 msgstr ""
-"شما می توانید کاربر جدید را اضافه کنید و پس از اضافه کردن اطلاعات کم، به شما "
-"اجازه می دهیم جزئیات بیشتری از کاربر اضافه کنید."
+"شما می توانید کاربر جدید را اضافه کنید و پس از اضافه کردن اطلاعات کم، به شما اجازه "
+"می دهیم جزئیات بیشتری از کاربر اضافه کنید."
 
 #: dash/addons/content_cp/users/set/view.php:18
 #: dash/addons/content_cp/users/view/view.php:18
@@ -808,8 +801,7 @@ msgstr "نمودار بازدیدکنندگان"
 #: dash/addons/content_cp/visitor/log/view.php:10
 msgid "Check list of visitor and search or filter in them to find your visitor."
 msgstr ""
-"بررسی لیست بازدیدکنندگان و جستجو یا فیلتر کردن آنان برای یافتن بازدیدکننده "
-"موردنظر."
+"بررسی لیست بازدیدکنندگان و جستجو یا فیلتر کردن آنان برای یافتن بازدیدکننده موردنظر."
 
 #: dash/addons/content_cp/visitor/home/view.php:9
 #: dash/addons/content_cp/visitor/log/view.php:9
@@ -1291,8 +1283,7 @@ msgstr "ما نمی‌توانیم شما را ثبت‌نام کنیم"
 
 #: dash/addons/content_enter/verify/later/model.php:40
 msgid "Invalid detail for signup!, Please try again"
-msgstr ""
-"ما اطلاعات اشتباهی از شما برای ثبت نام دریافت کرده ایم! لطفا مجددا تلاش کنید"
+msgstr "ما اطلاعات اشتباهی از شما برای ثبت نام دریافت کرده ایم! لطفا مجددا تلاش کنید"
 
 #: dash/addons/content_enter/verify/later/view.php:20
 #: dash/addons/content_enter/verify/sendsms/view.php:20
@@ -1331,13 +1322,12 @@ msgstr "لطفا هویت خود را تایید کنید."
 #: dash/addons/content_enter/verify/view.php:37
 msgid "We've sent the code via Telegram. Please enter the code below."
 msgstr ""
-"ما کد اعتبارسنجی را از طریق تلگرام برای شما ارسال کردیم. لطفا کد را در باکس "
-"پایین وارد کنید."
+"ما کد اعتبارسنجی را از طریق تلگرام برای شما ارسال کردیم. لطفا کد را در باکس پایین "
+"وارد کنید."
 
 #: dash/addons/content_enter/verify/view.php:41
 msgid "We trying to call you. be patient..."
-msgstr ""
-"ما در حال تلاش برای تماس با شما هستیم و تا لحظاتی دیگر با شما تماس می‌گیریم."
+msgstr "ما در حال تلاش برای تماس با شما هستیم و تا لحظاتی دیگر با شما تماس می‌گیریم."
 
 #: dash/addons/content_enter/verify/view.php:45
 msgid "Your verification code sended to your mobile number via sms. be patient..."
@@ -1347,11 +1337,11 @@ msgstr ""
 
 #: dash/addons/content_enter/verify/view.php:49
 msgid ""
-"We can't send code to you with our existing methods! For the last chance of "
-"verify yourself you can send code to our number."
+"We can't send code to you with our existing methods! For the last chance of verify "
+"yourself you can send code to our number."
 msgstr ""
-"ما نتوانستیم از طریق روش‌های موجود کد را بدست شما برسانیم! به‌عنوان آخرین شانس "
-"برای اعتبارسنجی شما می‌توانید کد را به ما پیامک کنید."
+"ما نتوانستیم از طریق روش‌های موجود کد را بدست شما برسانیم! به‌عنوان آخرین شانس برای "
+"اعتبارسنجی شما می‌توانید کد را به ما پیامک کنید."
 
 #: dash/addons/content_enter/verify/view.php:61
 msgid "What happend?"
@@ -1657,11 +1647,10 @@ msgstr "لیست تراکنش‌ها"
 
 #: dash/addons/content_su/transactions/view.php:11
 msgid ""
-"Check list of Transactions and search or filter in them to find your "
-"transactions."
+"Check list of Transactions and search or filter in them to find your transactions."
 msgstr ""
-"لیست تراکنش‌ها را بررسی کنید و آنها را جستجو کنید یا فیلتر کنید تا پیوست های خود "
-"را پیدا کنید."
+"لیست تراکنش‌ها را بررسی کنید و آنها را جستجو کنید یا فیلتر کنید تا پیوست های خود را "
+"پیدا کنید."
 
 #: dash/addons/content_su/transactions/view.php:11
 msgid "Also add or edit specefic transactions."
@@ -1705,11 +1694,11 @@ msgstr "مرکز راهنمایی"
 #: dash/addons/content_support/home/view.php:10
 #: dash/addons/content_support/tag/view.php:11
 msgid ""
-"Easily manage your tickets and monitor or track them to get best answer until "
-"fix your problem"
+"Easily manage your tickets and monitor or track them to get best answer until fix "
+"your problem"
 msgstr ""
-"به‌سادگی تیکت‌های خود را مدیریت کنید و با مونیتور و رهگیری آن‌ها به بهترین پاسخ "
-"برای رفع مشکل خود برسید"
+"به‌سادگی تیکت‌های خود را مدیریت کنید و با مونیتور و رهگیری آن‌ها به بهترین پاسخ برای "
+"رفع مشکل خود برسید"
 
 #: dash/addons/content_support/home/view.php:13
 #: dash/addons/content_support/message/view.php:35
@@ -1768,8 +1757,8 @@ msgstr "سامانه پشتیبانی تیکت"
 
 #: dash/addons/content_support/message/view.php:11
 msgid ""
-"Easily manage your message and monitor or track them to get best answer until "
-"fix your problem"
+"Easily manage your message and monitor or track them to get best answer until fix "
+"your problem"
 msgstr ""
 "به‌سادگی پیام‌های تیکت‌های خود را مدیریت کنید و با مونیتور و رهگیری آن‌ها به بهترین "
 "پاسخ برای رفع مشکل خود برسید"
@@ -3014,8 +3003,8 @@ msgstr "نام"
 #: dash/addons/includes/languages/trans_dash.php:240
 #: rezamohiti/includes/languages/trans_dash.php:240
 msgid ""
-"The permission name should be unique and contain only alphanameric characters "
-"and underscores"
+"The permission name should be unique and contain only alphanameric characters and "
+"underscores"
 msgstr ""
 "نام سطح دسترسی باید منحصر به فرد باشد و فقط شامل کاراکتر‌های الفبا و زیر خط باشد"
 
@@ -3031,8 +3020,7 @@ msgstr "برچسب"
 
 #: dash/addons/includes/languages/trans_dash.php:243
 #: rezamohiti/includes/languages/trans_dash.php:243
-msgid ""
-"The permission label is used to represent your permission in user management"
+msgid "The permission label is used to represent your permission in user management"
 msgstr "برچسب سطح دسترسی برای نشان دادن آن در بخش مدیریت استفاده می‌شود"
 
 #: dash/addons/includes/languages/trans_dash.php:244
@@ -3768,8 +3756,8 @@ msgid ""
 "Choose category for posts is fix url of post relative and help people find it "
 "better."
 msgstr ""
-"انتخاب دسته‌بندی برای نوشته منجر به تصحیح آدرس نوشته و ساختارمند کردن آن برای "
-"یافتن بهتر می‌گردد."
+"انتخاب دسته‌بندی برای نوشته منجر به تصحیح آدرس نوشته و ساختارمند کردن آن برای یافتن "
+"بهتر می‌گردد."
 
 #: dash/addons/includes/languages/trans_dash.php:412
 #: rezamohiti/includes/languages/trans_addons.php:177
@@ -4101,8 +4089,8 @@ msgstr "دوستان خود را از طریق شبکه‌های اجتماعی 
 msgid ""
 "Share the referral rewards program with friends on Facebook, Twitter, or Email."
 msgstr ""
-"برنامه معرفی را با دوستان خود در توئیتر، فیس‌بوک، تلگرام یا سایر شبکه‌های اجتماعی "
-"و ایمیل به اشتراک بگذارید."
+"برنامه معرفی را با دوستان خود در توئیتر، فیس‌بوک، تلگرام یا سایر شبکه‌های اجتماعی و "
+"ایمیل به اشتراک بگذارید."
 
 #: dash/addons/includes/languages/trans_dash.php:505
 #: rezamohiti/includes/languages/trans_addons.php:80
@@ -4116,11 +4104,11 @@ msgstr ""
 #: rezamohiti/includes/languages/trans_addons.php:81
 #: rezamohiti/includes/languages/trans_dash.php:506
 msgid ""
-"If someone forget to use your link, we allow to set your ref code as promo code "
-"in billing page!"
+"If someone forget to use your link, we allow to set your ref code as promo code in "
+"billing page!"
 msgstr ""
-"اگر هنگام ورود به سایت کسی فراموش کرد که از لینک شما استفاده کند، ما اجازه‌ی "
-"تنظیم کد شما را به عنوان کدتخفیف در صفحه مالی می‌دهیم!"
+"اگر هنگام ورود به سایت کسی فراموش کرد که از لینک شما استفاده کند، ما اجازه‌ی تنظیم "
+"کد شما را به عنوان کدتخفیف در صفحه مالی می‌دهیم!"
 
 #: dash/addons/includes/languages/trans_dash.php:507
 #: rezamohiti/includes/languages/trans_addons.php:82
@@ -4141,8 +4129,8 @@ msgid ""
 "Anyone you refer to Jibres that enter using your unique referral link or your "
 "promo code will receive $5 in credit."
 msgstr ""
-"هرکسی که با کد منحصربفرد شما سایت را مشاده کرده و وارد جیبرس شود و یا کسانی که "
-"از کد تخفیف شما استفاده کنند، ۱۰.۰۰۰ تومان اعتبار هدیه برای کار با جیبرس دریافت "
+"هرکسی که با کد منحصربفرد شما سایت را مشاده کرده و وارد جیبرس شود و یا کسانی که از "
+"کد تخفیف شما استفاده کنند، ۱۰.۰۰۰ تومان اعتبار هدیه برای کار با جیبرس دریافت "
 "خواهند کرد."
 
 #: dash/addons/includes/languages/trans_dash.php:510
@@ -4154,8 +4142,7 @@ msgstr "همه جایزه می‌گیرید.مثل برد برد."
 #: dash/addons/includes/languages/trans_dash.php:511
 #: rezamohiti/includes/languages/trans_addons.php:86
 #: rezamohiti/includes/languages/trans_dash.php:511
-msgid ""
-"Jibres rewards are charge in your account after 7 work days of confirmation."
+msgid "Jibres rewards are charge in your account after 7 work days of confirmation."
 msgstr "جوایز جیبرس حداکثر ۷ روز کاری پس از تایید در حساب شما شارژ می‌شود."
 
 #: dash/addons/includes/languages/trans_dash.php:512
@@ -4172,12 +4159,12 @@ msgstr ""
 #: rezamohiti/includes/languages/trans_addons.php:88
 #: rezamohiti/includes/languages/trans_dash.php:513
 msgid ""
-"We calculate your percentage until 6 month of your friend registration. Because "
-"of that it was your chance to convinced your friend to charge more!"
+"We calculate your percentage until 6 month of your friend registration. Because of "
+"that it was your chance to convinced your friend to charge more!"
 msgstr ""
 "شما ۶ ماه فرصت دارید تا مجموع پرداختی هر دوست معرفی شده را افزایش دهید. به‌همین "
-"دلیل، شما این زمان را خواهید داشت تا پس از اطمینان دوستان از کیفیت سیستم، آنان "
-"را برای شارژ بیشتر متقاعد کنید!"
+"دلیل، شما این زمان را خواهید داشت تا پس از اطمینان دوستان از کیفیت سیستم، آنان را "
+"برای شارژ بیشتر متقاعد کنید!"
 
 #: dash/addons/includes/languages/trans_dash.php:514
 #: rezamohiti/includes/languages/trans_addons.php:89
@@ -4639,8 +4626,7 @@ msgid "Run cronjob for this service"
 msgstr "اجرای کرون جاب برای این سرویس"
 
 #: dash/addons/includes/languages/trans_dash.php:616
-#: dash/addons/includes/languages/trans_static.php:49
-#: dash/lib/utility/upload.php:92
+#: dash/addons/includes/languages/trans_static.php:49 dash/lib/utility/upload.php:92
 #: rezamohiti/includes/languages/trans_addons.php:1204
 #: rezamohiti/includes/languages/trans_dash.php:616
 msgid "MB"
@@ -4935,8 +4921,7 @@ msgstr "روز"
 
 #: dash/addons/includes/languages/trans_dash.php:690
 #: dash/addons/includes/languages/trans_static.php:33 dash/lib/utility/human.php:31
-#: dash/lib/utility/human.php:118
-#: rezamohiti/includes/languages/trans_addons.php:298
+#: dash/lib/utility/human.php:118 rezamohiti/includes/languages/trans_addons.php:298
 #: rezamohiti/includes/languages/trans_dash.php:690
 msgid "hour"
 msgstr "ساعت"
@@ -6028,8 +6013,7 @@ msgid "Ahmad Karimi"
 msgstr "احمد کریمی"
 
 #: dash/addons/includes/languages/trans_static.php:13 rezamohiti/content/view.php:9
-#: rezamohiti/content/view.php:10
-#: rezamohiti/includes/languages/trans_addons.php:960
+#: rezamohiti/content/view.php:10 rezamohiti/includes/languages/trans_addons.php:960
 msgid "Reza Mohiti"
 msgstr "رضا محیطی"
 
@@ -6109,8 +6093,7 @@ msgid "day"
 msgstr "روز"
 
 #: dash/addons/includes/languages/trans_static.php:34 dash/lib/utility/human.php:32
-#: dash/lib/utility/human.php:126
-#: rezamohiti/includes/languages/trans_addons.php:1191
+#: dash/lib/utility/human.php:126 rezamohiti/includes/languages/trans_addons.php:1191
 msgid "minute"
 msgstr "دقیقه"
 
@@ -6144,8 +6127,7 @@ msgstr " "
 msgid "A few seconds ago"
 msgstr "چندثانیه پیش"
 
-#: dash/addons/includes/languages/trans_static.php:44
-#: dash/lib/utility/upload.php:113
+#: dash/addons/includes/languages/trans_static.php:44 dash/lib/utility/upload.php:113
 #: rezamohiti/includes/languages/trans_addons.php:1199
 msgid "item"
 msgstr "آیتم"
@@ -6155,38 +6137,32 @@ msgstr "آیتم"
 msgid "empty"
 msgstr "خالی"
 
-#: dash/addons/includes/languages/trans_static.php:46
-#: dash/lib/utility/upload.php:118
+#: dash/addons/includes/languages/trans_static.php:46 dash/lib/utility/upload.php:118
 #: rezamohiti/includes/languages/trans_addons.php:1201
 msgid "NaN"
 msgstr "-"
 
-#: dash/addons/includes/languages/trans_static.php:47
-#: dash/lib/utility/upload.php:92
+#: dash/addons/includes/languages/trans_static.php:47 dash/lib/utility/upload.php:92
 #: rezamohiti/includes/languages/trans_addons.php:1202
 msgid "Byte"
 msgstr "بایت"
 
-#: dash/addons/includes/languages/trans_static.php:48
-#: dash/lib/utility/upload.php:92
+#: dash/addons/includes/languages/trans_static.php:48 dash/lib/utility/upload.php:92
 #: rezamohiti/includes/languages/trans_addons.php:1203
 msgid "KB"
 msgstr "کیلوبایت"
 
-#: dash/addons/includes/languages/trans_static.php:50
-#: dash/lib/utility/upload.php:92
+#: dash/addons/includes/languages/trans_static.php:50 dash/lib/utility/upload.php:92
 #: rezamohiti/includes/languages/trans_addons.php:1205
 msgid "GB"
 msgstr "گیگابایت"
 
-#: dash/addons/includes/languages/trans_static.php:51
-#: dash/lib/utility/upload.php:92
+#: dash/addons/includes/languages/trans_static.php:51 dash/lib/utility/upload.php:92
 #: rezamohiti/includes/languages/trans_addons.php:1206
 msgid "TB"
 msgstr "ترابایت"
 
-#: dash/addons/includes/languages/trans_static.php:52
-#: dash/lib/utility/upload.php:92
+#: dash/addons/includes/languages/trans_static.php:52 dash/lib/utility/upload.php:92
 #: rezamohiti/includes/languages/trans_addons.php:1207
 msgid "PB"
 msgstr "پترابایت"
@@ -6882,8 +6858,8 @@ msgstr "کمک"
 #: rezamohiti/includes/languages/trans_addons.php:1337
 msgid "For multilanguage sites enter title in English and translate it"
 msgstr ""
-"برای سایت‌های چندزبانه، این بخش را به انگلیسی وارد نموده و توسط برنامه مترجم آن "
-"را به سایر زبان‌ها ترجمه کنید"
+"برای سایت‌های چندزبانه، این بخش را به انگلیسی وارد نموده و توسط برنامه مترجم آن را "
+"به سایر زبان‌ها ترجمه کنید"
 
 #: dash/addons/includes/languages/trans_static.php:236
 #: rezamohiti/includes/languages/trans_addons.php:1338
@@ -7419,8 +7395,7 @@ msgstr "ما برای اعتبارسنجی اکانت، نیاز به شماره
 #: old/commands/step_register.php:116 older - addons/commands/step_register.php:116
 #: rezamohiti/includes/languages/trans_addons.php:1446
 msgid "If you dont want share your number, we cant presenting our services to you!"
-msgstr ""
-"اگر شما مایل به ارائه شماره خود نباشید، ما امکان سرویس‌دهی به شما را نداریم!"
+msgstr "اگر شما مایل به ارائه شماره خود نباشید، ما امکان سرویس‌دهی به شما را نداریم!"
 
 #: dash/addons/includes/languages/trans_static.php:380 dash/lib/social/tg
 #: old/commands/step_register.php:122 older - addons/commands/step_register.php:122
@@ -9825,8 +9800,8 @@ msgstr "ما یک ورودی جدید را مشاهده کردیم :displayname"
 #: dash/addons/includes/languages/trans_static.php:1087
 msgid ""
 "If this was you, you can safely disregard this message. If you didn't do this, "
-"please change your password to help secure your account. Learn more about "
-"keeping your account secure."
+"please change your password to help secure your account. Learn more about keeping "
+"your account secure."
 msgstr ""
 "اگر این شما هستید، می توانید با خیال راحت این پیام را نادیده بگیرید. اگر این کار "
 "را نکردید، لطفا گذرواژه خود را تغییر دهید تا امنیت حسابتان را تضمین کنید. درباره "
@@ -10283,8 +10258,7 @@ msgstr "دیدگاه‌های این نوشته بسته است!"
 msgid "Title is out of range!"
 msgstr "عنوان خارج از محدوده است!"
 
-#: dash/lib/app/comment.php:294 dash/lib/app/term.php:168
-#: dash/lib/app/ticket.php:363
+#: dash/lib/app/comment.php:294 dash/lib/app/term.php:168 dash/lib/app/ticket.php:363
 msgid "Invalid parent"
 msgstr "شناسه والد اشتباه است"
 
@@ -10343,8 +10317,8 @@ msgstr "عنوان دلخواه نمی‌تواند بیشتر از ۵۰ کار�
 #: dash/lib/app/parent/add.php:176
 msgid "Your request was sended to user, wait for answer user"
 msgstr ""
-"درخواست شما به کاربر ارسال شده است. منتظر بمانید تا جواب کاربر به درخواست شما "
-"مشخص شود"
+"درخواست شما به کاربر ارسال شده است. منتظر بمانید تا جواب کاربر به درخواست شما مشخص "
+"شود"
 
 #: dash/lib/app/parent/add.php:203
 msgid "Are you :title of this user?"
@@ -11036,8 +11010,8 @@ msgid ""
 "Knowing your valuable comments about bugs and problems and more importantly your "
 "precious offers will help us in this way."
 msgstr ""
-"دانستن نظرات ارزشمند شما درباره‌ی مشکلات و نواقص و صدالبته پیشنهادات گرانبهایتان "
-"و هم‌چنین ثبت شکایات از طریق فرم زیر سبب کمک به ما برای این مهم خواهد شد."
+"دانستن نظرات ارزشمند شما درباره‌ی مشکلات و نواقص و صدالبته پیشنهادات گرانبهایتان و "
+"هم‌چنین ثبت شکایات از طریق فرم زیر سبب کمک به ما برای این مهم خواهد شد."
 
 #: dash/lib/social/telegram/commands/step_feedback.php:39
 msgid "Please wrote your request, offer, criticism or appreciation"
@@ -11165,8 +11139,7 @@ msgstr "لطفا تنها از منوی زیر استفاده کنید."
 
 #: dash/lib/utility.php:36
 msgid "This password is very simple and guessable, please use stronger password!"
-msgstr ""
-"این گذرواژه بسیار ساده و قابل حدس است، لطفا از گذواژه‌ی سخت‌تری استفاده کنید!"
+msgstr "این گذرواژه بسیار ساده و قابل حدس است، لطفا از گذواژه‌ی سخت‌تری استفاده کنید!"
 
 #: dash/lib/utility/cloudflare.php:236
 msgid "The api Cloudflare opration success"
@@ -11535,16 +11508,12 @@ msgid "Exceeded file extension limit"
 msgstr "نوع فایل غیرمجاز"
 
 #: rezamohiti/content/nationalcode/view.php:9
-#, fuzzy
-#| msgid "National code"
 msgid "Check national code"
-msgstr "کد ملی"
+msgstr "بررسی کد ملی"
 
 #: rezamohiti/content/nationalcode/view.php:10
-#, fuzzy
-#| msgid "Please remove the nationalcode"
 msgid "Check or generate national code"
-msgstr "لطفا کد ملی را حذف کنید"
+msgstr "بررسی و ساخت کد ملی"
 
 #: rezamohiti/content/view.php:11
 msgid "programer;)"
@@ -11701,10 +11670,8 @@ msgid "Count Detail"
 msgstr "تعداد جزئیات"
 
 #: rezamohiti/includes/languages/trans_addons.php:351
-#, fuzzy
-#| msgid "Gallery"
 msgid "Caller"
-msgstr "گالری"
+msgstr "صدا کننده"
 
 #: rezamohiti/includes/languages/trans_addons.php:352
 msgid "Priority"
@@ -11836,19 +11803,19 @@ msgid ""
 "several distinct types of definitions: elements, collections, views, modules and "
 "behaviors which cover the gamut of interface design."
 msgstr ""
-"تعاریف فقط به دکمه‌های یک صفحه محدود نمی‌شوند. اجزای سیفتال اجازه میدهد تا چندین "
-"نوع از تعاریف مختلفی از جمله عناصر، مجموعه‌ها، نمایش‌ها، ماژول‌ها و رفتارها در "
-"محدوده طراحی رابط قرار گیرند."
+"تعاریف فقط به دکمه‌های یک صفحه محدود نمی‌شوند. اجزای سیفتال اجازه میدهد تا چندین نوع "
+"از تعاریف مختلفی از جمله عناصر، مجموعه‌ها، نمایش‌ها، ماژول‌ها و رفتارها در محدوده "
+"طراحی رابط قرار گیرند."
 
 #: rezamohiti/includes/languages/trans_addons.php:402
 msgid ""
-"For improved cross-browser rendering, we use <a href='sample/reset'>special "
-"reset</a> to correct inconsistencies across browsers and devices while providing "
-"slightly more opinionated resets to common HTML elements."
+"For improved cross-browser rendering, we use <a href='sample/reset'>special reset</"
+"a> to correct inconsistencies across browsers and devices while providing slightly "
+"more opinionated resets to common HTML elements."
 msgstr ""
 "برای بهبود رندر متقابل مرورگر‌ها، ما از <a href='sample/reset'> تنظیم مجدد ویژه </"
-"a> برای اصلاح ناسازگاری بین مرورگرها و دستگاه‌ها استفاده می‌کنیم و در عین حال "
-"تنظیم مجدد تنظیمات نسبت به عناصر HTML معمول را بیشتر میکند."
+"a> برای اصلاح ناسازگاری بین مرورگرها و دستگاه‌ها استفاده می‌کنیم و در عین حال تنظیم "
+"مجدد تنظیمات نسبت به عناصر HTML معمول را بیشتر میکند."
 
 #: rezamohiti/includes/languages/trans_addons.php:403
 msgid "Button"
@@ -12122,8 +12089,8 @@ msgid ""
 "Badges scale to match the size of the immediate parent element by using relative "
 "font sizing and <code class='code1'>em</code> units."
 msgstr ""
-"مقیاس مدال‌ها برای مطابقت با اندازه اصلی عنصر با استفاده از اندازه فونت نسبی و "
-"واحد <code class='code1'>em</code> صورت می‌گیرد."
+"مقیاس مدال‌ها برای مطابقت با اندازه اصلی عنصر با استفاده از اندازه فونت نسبی و واحد "
+"<code class='code1'>em</code> صورت می‌گیرد."
 
 #: rezamohiti/includes/languages/trans_addons.php:478
 msgid "Example heading"
@@ -12250,8 +12217,8 @@ msgid ""
 "Use Siftal's custom button styles for actions in forms, dialogs, and more with "
 "support for multiple sizes, states, and more."
 msgstr ""
-"استایل‌های سفارشی سیفتال برای اقدامات در فرم‌ها و گفتگوها و‌‌.‌.. با پشتیبانی از "
-"سایز‌ها و حالت‌های مختلف و... استفاده کنید."
+"استایل‌های سفارشی سیفتال برای اقدامات در فرم‌ها و گفتگوها و‌‌.‌.. با پشتیبانی از سایز‌ها "
+"و حالت‌های مختلف و... استفاده کنید."
 
 #: rezamohiti/includes/languages/trans_addons.php:518
 msgid "Simple Examples"
@@ -12279,9 +12246,9 @@ msgstr "تگ‌های دکمه"
 
 #: rezamohiti/includes/languages/trans_addons.php:523
 msgid ""
-"The <code class='code1'>.btn</code> classes are designed to be used with the "
-"<code class='code1'>&lt;button&gt;</code> element. However, you can also use "
-"these classes on <code class='code1'>&lt;a&gt;</code> or <code class='code1'>&lt;"
+"The <code class='code1'>.btn</code> classes are designed to be used with the <code "
+"class='code1'>&lt;button&gt;</code> element. However, you can also use these "
+"classes on <code class='code1'>&lt;a&gt;</code> or <code class='code1'>&lt;"
 "input&gt;</code> elements (though some browsers may apply a slightly different "
 "rendering)."
 msgstr ""
@@ -12299,11 +12266,11 @@ msgid ""
 "given a <code class='code1'>role='button'</code> to appropriately convey their "
 "purpose to assistive technologies such as screen readers."
 msgstr ""
-"هنگام استفاده از کلاسهای دکمه در عناصر<code class='code1'>&lt;a&gt;</code> که "
-"برای فعال‌کردن قابلیت صفحه در صفحه (مانند محو شدن محتوا) استفاده می‌شود، به جای "
-"پیوند دادن به صفحات یا بخش‌های جدید در صفحه فعلی،‌این پیوندها باید کد <code "
-"class='code1'>role='button'</code> را به درستی با منظور خود و به فن آوری‌های "
-"جانبی مانند خوانندگان صفحه نمایش منتقل‌کند."
+"هنگام استفاده از کلاسهای دکمه در عناصر<code class='code1'>&lt;a&gt;</code> که برای "
+"فعال‌کردن قابلیت صفحه در صفحه (مانند محو شدن محتوا) استفاده می‌شود، به جای پیوند "
+"دادن به صفحات یا بخش‌های جدید در صفحه فعلی،‌این پیوندها باید کد <code "
+"class='code1'>role='button'</code> را به درستی با منظور خود و به فن آوری‌های جانبی "
+"مانند خوانندگان صفحه نمایش منتقل‌کند."
 
 #: rezamohiti/includes/languages/trans_addons.php:525
 msgid "Link!"
@@ -12332,8 +12299,7 @@ msgid "A button can be formatted to appear on dark backgrounds"
 msgstr "یک دکمه می‌تواند تغییر کنید تا در زمینه‌های تاریک استفاده‌شود"
 
 #: rezamohiti/includes/languages/trans_addons.php:530
-msgid ""
-"Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes."
+msgid "Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes."
 msgstr ""
 "دکمه‌های بزرگتر یا کوچکتر با اضافه‌کردن .btn-lg or .btn-sm برای‌ اندازه‌های اضافی."
 
@@ -12373,8 +12339,8 @@ msgstr "حالت فعال"
 msgid ""
 "Buttons will appear pressed (with a darker background) when active. There’s no "
 "need to add a class to <code class='code1'>&lt;button&gt;</code>s as they use a "
-"pseudo-class. However, you can still force the same active appearance with ."
-"active should you need to replicate the state programmatically."
+"pseudo-class. However, you can still force the same active appearance with .active "
+"should you need to replicate the state programmatically."
 msgstr ""
 "هنگامی‌که دکمه فشرده‌ می‌شود (درپس‌زمینه سیاه) در حالت فعال. شما نیاز‌ندارید که کلاسی "
 "را به <code class='code1'>&lt;button&gt;</code>‌ها اضافه کنید چون از یک کلاس "
@@ -12400,8 +12366,8 @@ msgid ""
 "<code class='code1'>disabled</code> attribute, so you must add the <code "
 "class='code1'>.disabled</code> class to make it visually appear disabled."
 msgstr ""
-"دکمه‌های غیرفعال با استفاده از عناصر <code class='code1'>&lt;a&gt;</code> "
-"کمی‌متفاوت عمل می‌کنند زیرا  <code class='code1'>&lt;a&gt;</code>ها از صفت <code "
+"دکمه‌های غیرفعال با استفاده از عناصر <code class='code1'>&lt;a&gt;</code> کمی‌متفاوت "
+"عمل می‌کنند زیرا  <code class='code1'>&lt;a&gt;</code>ها از صفت <code "
 "class='code1'>disabled</code> پشتیبانی نمی‌کنند، پس شما باید کلاس <code "
 "class='code1'>.disabled</code> را اضافه کنید تا به‌صورت کامل غیرفعال‌شود."
 
@@ -12425,30 +12391,30 @@ msgstr "لینک هشدار عملکرد"
 msgid ""
 "The <code class='code1'>.disabled</code> class uses <code class='code1'>pointer-"
 "events: none</code> to try to disable the link functionality of <code "
-"class='code1'>&lt;a&gt;</code>s, but that CSS property is not yet standardized. "
-"In addition, even in browsers that do support <code class='code1'>pointer-"
-"events: none</code>, keyboard navigation remains unaffected, meaning that "
-"sighted keyboard users and users of assistive technologies will still be able to "
-"activate these links. So to be safe, add a <code class='code1'>tabindex='-1'</"
-"code> attribute on these links (to prevent them from receiving keyboard focus) "
-"and use custom JavaScript to disable their functionality."
+"class='code1'>&lt;a&gt;</code>s, but that CSS property is not yet standardized. In "
+"addition, even in browsers that do support <code class='code1'>pointer-events: "
+"none</code>, keyboard navigation remains unaffected, meaning that sighted keyboard "
+"users and users of assistive technologies will still be able to activate these "
+"links. So to be safe, add a <code class='code1'>tabindex='-1'</code> attribute on "
+"these links (to prevent them from receiving keyboard focus) and use custom "
+"JavaScript to disable their functionality."
 msgstr ""
-"کلاس : <code class='code1'>.disabled</code> از <code class='code1'>pointer-"
-"events: none</code> استفاده می‌کند تا توابع لینک را در  <code class='code1'> &lt;"
-"a&gt; </code>  غیرفعال‌کند اما آن ویژگی‌های سی‌اس‌اس استاندارد نیستند. هر زمان در "
-"مرورگر از<code class='code1'>pointer-events: none</code> پشتیبانی‌کند، مکان‌نمای "
-"صفحه‌کلید باقی می‌ماند، به این معنی که کاربران با صفحه‌کلید می‌توانند این لینک‌ها را "
-"فعال کنند. پس مطمئن باشید با اضافه‌کردن صفت <code class='code1'>tabindex='-1'</"
-"code>  بر روی لینک‌های خود(برای جلوگیری از دریافت فوکوس صفحه کلید) و همچنین از "
-"یکسری قابلیت‌های جاوا‌اسکریپت برای غیرفعال‌کردن این رویداد‌ها استفاده می‌کند."
+"کلاس : <code class='code1'>.disabled</code> از <code class='code1'>pointer-events: "
+"none</code> استفاده می‌کند تا توابع لینک را در  <code class='code1'> &lt;a&gt; </"
+"code>  غیرفعال‌کند اما آن ویژگی‌های سی‌اس‌اس استاندارد نیستند. هر زمان در مرورگر "
+"از<code class='code1'>pointer-events: none</code> پشتیبانی‌کند، مکان‌نمای صفحه‌کلید "
+"باقی می‌ماند، به این معنی که کاربران با صفحه‌کلید می‌توانند این لینک‌ها را فعال کنند. "
+"پس مطمئن باشید با اضافه‌کردن صفت <code class='code1'>tabindex='-1'</code>  بر روی "
+"لینک‌های خود(برای جلوگیری از دریافت فوکوس صفحه کلید) و همچنین از یکسری قابلیت‌های "
+"جاوا‌اسکریپت برای غیرفعال‌کردن این رویداد‌ها استفاده می‌کند."
 
 #: rezamohiti/includes/languages/trans_addons.php:550
 msgid ""
 "Easily extend form controls by adding text, buttons, or button groups on either "
 "side of textual inputs."
 msgstr ""
-"به راحتی کنترلر‌های فرم را با اضافه‌کردن متن‌، دکمه‌ها یا گروه‌های دکمه‌ای در هر دو "
-"طرف از ورودی‌های متنی گسترش دهید."
+"به راحتی کنترلر‌های فرم را با اضافه‌کردن متن‌، دکمه‌ها یا گروه‌های دکمه‌ای در هر دو طرف "
+"از ورودی‌های متنی گسترش دهید."
 
 #: rezamohiti/includes/languages/trans_addons.php:551
 msgid "Simple Examples with input element"
@@ -12701,8 +12667,7 @@ msgstr "ددلاین"
 
 #: rezamohiti/includes/languages/trans_addons.php:629
 msgid "Siftal's deadline provide a simple box to show title and remain date."
-msgstr ""
-"سیفتال ددلاین باکس ساده‌ای را برای نمایش عنوان و زمان باقی‌مانده ارائه می‌دهد."
+msgstr "سیفتال ددلاین باکس ساده‌ای را برای نمایش عنوان و زمان باقی‌مانده ارائه می‌دهد."
 
 #: rezamohiti/includes/languages/trans_addons.php:630
 msgid "Sample Deadline"
@@ -12731,14 +12696,14 @@ msgstr "تقسیم بندی صفحه"
 #: rezamohiti/includes/languages/trans_addons.php:638
 msgid "one row will divide to the number of parts, if you just set class='c'"
 msgstr ""
-"یک ردیف به تعداد قطعات تقسیم می‌شود، اگر شما فقط <code>class = 'c'</code> را "
-"تنظیم کنید"
+"یک ردیف به تعداد قطعات تقسیم می‌شود، اگر شما فقط <code>class = 'c'</code> را تنظیم "
+"کنید"
 
 #: rezamohiti/includes/languages/trans_addons.php:639
 msgid "on large screens if you just set class='x', it will take the x class ratio"
 msgstr ""
-"در صفحه نمایش‌های بزرگ اگر ست کنید : <code>class='x',</code> کلاس‌ها را نسبت به "
-"کلاس x خواهد گرفت"
+"در صفحه نمایش‌های بزرگ اگر ست کنید : <code>class='x',</code> کلاس‌ها را نسبت به کلاس "
+"x خواهد گرفت"
 
 #: rezamohiti/includes/languages/trans_addons.php:640
 msgid "three equal parts"
@@ -12890,11 +12855,11 @@ msgstr "خداحافظ"
 
 #: rezamohiti/includes/languages/trans_addons.php:688
 msgid ""
-"Provide contextual feedback messages for typical user actions with the handful "
-"of available and flexible alert messages."
+"Provide contextual feedback messages for typical user actions with the handful of "
+"available and flexible alert messages."
 msgstr ""
-"فراهم کننده متنی بازخورد متن برای اقدامات معمولی کاربر به همراه تعداد انگشت "
-"شماری از دسترسی و پیغام‌های هشدار انعطاف پذیر‌‌."
+"فراهم کننده متنی بازخورد متن برای اقدامات معمولی کاربر به همراه تعداد انگشت شماری "
+"از دسترسی و پیغام‌های هشدار انعطاف پذیر‌‌."
 
 #: rezamohiti/includes/languages/trans_addons.php:689
 msgid "This is a primary message or alert. check it out!"
@@ -12970,8 +12935,8 @@ msgstr "رنگ لینک"
 
 #: rezamohiti/includes/languages/trans_addons.php:707
 msgid ""
-"Use the <code class='code1'>.link</code> utility class to quickly provide "
-"matching colored links within any alert."
+"Use the <code class='code1'>.link</code> utility class to quickly provide matching "
+"colored links within any alert."
 msgstr ""
 "با استفاده از کلاس : <code class='code1'>.link</code> به سرعت لینک‌های رنگی را در "
 "هر هشدار استفاده کنید."
@@ -13034,17 +12999,16 @@ msgstr "آفرین!"
 
 #: rezamohiti/includes/languages/trans_addons.php:721
 msgid ""
-"Aww yeah, you successfully read this important alert message. This example text "
-"is going to run a bit longer so that you can see how spacing within an alert "
-"works with this kind of content."
+"Aww yeah, you successfully read this important alert message. This example text is "
+"going to run a bit longer so that you can see how spacing within an alert works "
+"with this kind of content."
 msgstr ""
-"اوه بله شما موفق به خواندن‌این پیام مهم شدید.این یک متن مثال است تا بتوانید "
-"ببینید فاصله در یک هشدار با‌این محتوا چگونه کار می‌کند."
+"اوه بله شما موفق به خواندن‌این پیام مهم شدید.این یک متن مثال است تا بتوانید ببینید "
+"فاصله در یک هشدار با‌این محتوا چگونه کار می‌کند."
 
 #: rezamohiti/includes/languages/trans_addons.php:722
 msgid ""
-"Whenever you need to, be sure to use margin utilities to keep things nice and "
-"tidy."
+"Whenever you need to, be sure to use margin utilities to keep things nice and tidy."
 msgstr ""
 "هر زمان که نیاز دارید مطمئن از ابزار‌های حاشیه‌ای (margin) استفاده کنیدتا چیزها را "
 "زیباتر و منظم‌تر نگه‌دارید."
@@ -13319,11 +13283,11 @@ msgstr "این عنوان ۶ است"
 
 #: rezamohiti/includes/languages/trans_addons.php:797
 msgid ""
-"Documentation and examples for showing pagination to indicate a series of "
-"related content exists across multiple pages."
+"Documentation and examples for showing pagination to indicate a series of related "
+"content exists across multiple pages."
 msgstr ""
-"مستندات و نمونه‌هایی برای نشان دادن صفحه بندی برای نمایش یک سری از محتوای مرتبط "
-"که در چند صفحه وجود دارد."
+"مستندات و نمونه‌هایی برای نشان دادن صفحه بندی برای نمایش یک سری از محتوای مرتبط که "
+"در چند صفحه وجود دارد."
 
 #: rezamohiti/includes/languages/trans_addons.php:798
 msgid "Overview"
@@ -13332,17 +13296,16 @@ msgstr "بررسی اجمالی"
 #: rezamohiti/includes/languages/trans_addons.php:799
 msgid ""
 "We use a large block of connected links for our pagination, making links hard to "
-"miss and easily scalable—all while providing large hit areas. Pagination is "
-"built with list HTML elements so screen readers can announce the number of "
-"available links. Use a wrapping <nav> element to identify it as a navigation "
-"section to screen readers and other assistive technologies."
+"miss and easily scalable—all while providing large hit areas. Pagination is built "
+"with list HTML elements so screen readers can announce the number of available "
+"links. Use a wrapping <nav> element to identify it as a navigation section to "
+"screen readers and other assistive technologies."
 msgstr ""
-"ما از یک بلوک بزرگ از لینک‌های متصل برای صفحه بندی ما استفاده می‌کنیم، که باعث "
-"میشود لینک‌ها به راحتی قابل دسترسی است و به راحتی مقیاس پذیر باشند - در حالی که "
-"اماده یک کلیک هستند.صفحه بندی با عناصر لیست در اچ‌تی‌ام‌ال‌5 ساخته‌شده اند‌، بنابر‌این "
-"خوانندگان میتوانند تعداد لینک‌های موجود دار اعلام کنند‌‌. از یک عنصر<nav> استفاده "
-"کنید تا آنرا به عنوان بخش ناوبری برای نمایش به خوانندگان و سایر تکنیک‌ها شناسایی "
-"کنید‌‌."
+"ما از یک بلوک بزرگ از لینک‌های متصل برای صفحه بندی ما استفاده می‌کنیم، که باعث میشود "
+"لینک‌ها به راحتی قابل دسترسی است و به راحتی مقیاس پذیر باشند - در حالی که اماده یک "
+"کلیک هستند.صفحه بندی با عناصر لیست در اچ‌تی‌ام‌ال‌5 ساخته‌شده اند‌، بنابر‌این خوانندگان "
+"میتوانند تعداد لینک‌های موجود دار اعلام کنند‌‌. از یک عنصر<nav> استفاده کنید تا آنرا "
+"به عنوان بخش ناوبری برای نمایش به خوانندگان و سایر تکنیک‌ها شناسایی کنید‌‌."
 
 #: rezamohiti/includes/languages/trans_addons.php:800
 msgid "A pagination can use in many colors"
@@ -13358,8 +13321,8 @@ msgstr "مستندات و نمونه‌هایی برای استفاده از ن�
 
 #: rezamohiti/includes/languages/trans_addons.php:805
 msgid ""
-"Siftal use html progress and meter and have some styles on them, each serving "
-"its own semantic purpose"
+"Siftal use html progress and meter and have some styles on them, each serving its "
+"own semantic purpose"
 msgstr ""
 "سیفتال از نوار پیشرفت اچ‌تی‌ام‌ال و متر و برخی استایل‌های همراه استفاده می‌کند‌، هر "
 "سرویس برای منظور خواصی استفاده میشد‌‌"
@@ -13538,8 +13501,8 @@ msgstr ""
 
 #: rezamohiti/includes/languages/trans_addons.php:854
 msgid ""
-"should render <code>em</code>-unit preformatted text at the same absolute size "
-"as normal text"
+"should render <code>em</code>-unit preformatted text at the same absolute size as "
+"normal text"
 msgstr ""
 "باید متن <code> em </ code> با همان اندازه مطلق به عنوان متن معمولی قالب بندی شود"
 
@@ -13766,18 +13729,17 @@ msgstr "رنگ جداول می‌تواند تغییر‌کند"
 
 #: rezamohiti/includes/languages/trans_addons.php:923
 msgid ""
-"Similar to colored tables, use one of modifier classes to make rows appear "
-"colored."
+"Similar to colored tables, use one of modifier classes to make rows appear colored."
 msgstr ""
 "مانند جداول رنگی‌، از یکی از کلاس‌های تعیین کننده استفاده کنید تا سطر‌ها رنگی باشد."
 
 #: rezamohiti/includes/languages/trans_addons.php:924
 msgid ""
-"Add <code class='code1'>.bordered</code> for borders on all sides of the table "
-"and cells."
+"Add <code class='code1'>.bordered</code> for borders on all sides of the table and "
+"cells."
 msgstr ""
-"کلاس : <code class='code1'>.bordered</code> را برای اضافه‌کردن حاشیه به تمام "
-"جداول و سلول‌ها اضافه کنید."
+"کلاس : <code class='code1'>.bordered</code> را برای اضافه‌کردن حاشیه به تمام جداول "
+"و سلول‌ها اضافه کنید."
 
 #: rezamohiti/includes/languages/trans_addons.php:925
 msgid "Only add <code class='code1'>.responsive</code> to table."
@@ -13802,11 +13764,11 @@ msgstr "گاهی ممکن است یک جدول بزرگ باشد"
 
 #: rezamohiti/includes/languages/trans_addons.php:930
 msgid ""
-"Add <code class='code1'>data-sort=desc|asc</code> to table header for add icon "
-"of sorting"
+"Add <code class='code1'>data-sort=desc|asc</code> to table header for add icon of "
+"sorting"
 msgstr ""
-"کد : <code class='code1'>data-sort=desc|asc</code> را برای اضافه‌کردن‌ایکن مرتب "
-"سازی به عنوان جدول اضافه کنید"
+"کد : <code class='code1'>data-sort=desc|asc</code> را برای اضافه‌کردن‌ایکن مرتب سازی "
+"به عنوان جدول اضافه کنید"
 
 #: rezamohiti/includes/languages/trans_addons.php:931
 msgid "@evazzadeh"
@@ -13876,19 +13838,19 @@ msgstr ""
 #: rezamohiti/includes/languages/trans_addons.php:950
 msgid ""
 "A card is a flexible and extensible content container. It includes options for "
-"headers and footers, a wide variety of content, contextual background colors, "
-"and powerful display options."
+"headers and footers, a wide variety of content, contextual background colors, and "
+"powerful display options."
 msgstr "کارت یک مخزن با محتوای قابل انعطاف و توسعه پذیر است."
 
 #: rezamohiti/includes/languages/trans_addons.php:951
 msgid ""
-"Cards are built with as little markup and styles as possible, but still manage "
-"to deliver a ton of control and customization. Built with flexbox, they offer "
-"easy alignment and mix well with other  components."
+"Cards are built with as little markup and styles as possible, but still manage to "
+"deliver a ton of control and customization. Built with flexbox, they offer easy "
+"alignment and mix well with other  components."
 msgstr ""
 "card‌هابا امکان نشانه گذاری و استایل‌های کوچک ساخته‌شده اند اما هنوز امکان کنترل و "
-"سفارشی سازی راه دارد‌‌.  ساخته‌شده با flexbox‌، اغلب هماهنگی و‌ترکیب خوبی با اجزای "
-"دیگر دارند‌‌."
+"سفارشی سازی راه دارد‌‌.  ساخته‌شده با flexbox‌، اغلب هماهنگی و‌ترکیب خوبی با اجزای دیگر "
+"دارند‌‌."
 
 #: rezamohiti/includes/languages/trans_addons.php:952
 msgid "10h"
@@ -13904,11 +13866,11 @@ msgstr "۱هزار لایک"
 
 #: rezamohiti/includes/languages/trans_addons.php:955
 msgid ""
-"Cards are designed to be flexible to your content. content blocks can include "
-"any custom elements related to your content."
+"Cards are designed to be flexible to your content. content blocks can include any "
+"custom elements related to your content."
 msgstr ""
-"کارت‌ها طراحی‌شده اند تا محتوای شما انعطاف پذیر باشند. بلوک‌های محتوا می‌تواند شامل "
-"هر عنصر سفارشی مربوط به محتوای شما باشند."
+"کارت‌ها طراحی‌شده اند تا محتوای شما انعطاف پذیر باشند. بلوک‌های محتوا می‌تواند شامل هر "
+"عنصر سفارشی مربوط به محتوای شما باشند."
 
 #: rezamohiti/includes/languages/trans_addons.php:956
 msgid "Accept"
@@ -14070,14 +14032,10 @@ msgid "Error Logs"
 msgstr "لاگ خطاها"
 
 #: rezamohiti/includes/languages/trans_addons.php:1030
-#, fuzzy
-#| msgid "Cronjob"
 msgid "Cronjob log"
 msgstr "کرون جاب"
 
 #: rezamohiti/includes/languages/trans_addons.php:1031
-#, fuzzy
-#| msgid "Cronjob"
 msgid "Cronjob Logs"
 msgstr "کرون جاب"
 
@@ -14144,8 +14102,7 @@ msgstr "نام‌خانوادگی"
 #: rezamohiti/includes/languages/trans_addons.php:1100
 msgid "allowed extentions jpg, png (gif for bussiness plans). Max 500Kb"
 msgstr ""
-"پسوندهای مجاز jpg و png هستند‌(‌gif برای پلن‌های تجاری). حداکثر حجم مجاز ۵۰۰ "
-"کیلوبایت"
+"پسوندهای مجاز jpg و png هستند‌(‌gif برای پلن‌های تجاری). حداکثر حجم مجاز ۵۰۰ کیلوبایت"
 
 #: rezamohiti/includes/languages/trans_addons.php:1101
 #: rezamohiti/includes/languages/trans_project.php:36
@@ -14221,24 +14178,18 @@ msgid "News Code"
 msgstr "کد اخبار"
 
 #: rezamohiti/includes/languages/trans_project.php:32
-#, fuzzy
-#| msgid "Check your mobile and enter the code"
 msgid "Check and Generate National code"
-msgstr "پس از بررسی موبایل خود کد را وارد کنید"
+msgstr "بررسی و ساخت کد ملی"
 
 #: rezamohiti/includes/languages/trans_project.php:37
 msgid "Check"
 msgstr "بررسی"
 
 #: rezamohiti/includes/languages/trans_project.php:38
-#, fuzzy
-#| msgid "Invalid nationalcode"
 msgid "This is a valid national code"
-msgstr "کدملی نامعتبر"
+msgstr "کدملی معتبر است"
 
 #: rezamohiti/includes/languages/trans_project.php:39
-#, fuzzy
-#| msgid "Invalid nationalcode"
 msgid "This is not a valid national code"
 msgstr "کدملی نامعتبر"
 
@@ -14247,10 +14198,8 @@ msgid "To generate new national code click here"
 msgstr ""
 
 #: rezamohiti/includes/languages/trans_project.php:41
-#, fuzzy
-#| msgid "GENERATE NEW API KEY"
 msgid "GENERATE NEW"
-msgstr "ساخت کلید اتصال جدید"
+msgstr "یکی بساز"
 
 #: rezamohiti/includes/languages/trans_project.php:42
 #, fuzzy
@@ -14441,8 +14390,8 @@ msgstr "کپی"
 #~ "Azvir have a set of simple and practical tools on a regular basis for modern "
 #~ "businesses."
 #~ msgstr ""
-#~ "ازویر مجموعه ابزارهایی ساده و کاربردی را به‌صورت یکپارچه در اختیار کسب و "
-#~ "کارهای مدرن و همینطور تجارت‌های سنتی مایل به حرکت به‌سوی تکنولوژی قرار می‌دهد."
+#~ "ازویر مجموعه ابزارهایی ساده و کاربردی را به‌صورت یکپارچه در اختیار کسب و کارهای "
+#~ "مدرن و همینطور تجارت‌های سنتی مایل به حرکت به‌سوی تکنولوژی قرار می‌دهد."
 
 #~ msgid "Academy list"
 #~ msgstr "لیست مراکز آموزشی"
@@ -14481,8 +14430,8 @@ msgstr "کپی"
 #~ "We wish to assure you that our main concern is to secure your privacy and "
 #~ "protect your information against impermissible access."
 #~ msgstr ""
-#~ "ما این اطمینان را به شما می‌دهیم که دغدغه‌ی ما، حفظ حریم‌خصوصی و محافظت از "
-#~ "اطلاعات شما در برابر دسترسی‌های غیرمجاز هست."
+#~ "ما این اطمینان را به شما می‌دهیم که دغدغه‌ی ما، حفظ حریم‌خصوصی و محافظت از اطلاعات "
+#~ "شما در برابر دسترسی‌های غیرمجاز هست."
 
 #~ msgid "Azvir Social Responsibility"
 #~ msgstr "مسئولیت اجتماعی ازویر"
@@ -14502,8 +14451,8 @@ msgstr "کپی"
 #~ "Azvir acts upon international rules, depends on the countries receiving its "
 #~ "services and renders its activities within this framework."
 #~ msgstr ""
-#~ "ازویر مطابق قوانین بین‌الملل و وابسته به کشورهای دریافت‌کننده خدمات بوده و در "
-#~ "این چارچوب فعالیت می‌نماید."
+#~ "ازویر مطابق قوانین بین‌الملل و وابسته به کشورهای دریافت‌کننده خدمات بوده و در این "
+#~ "چارچوب فعالیت می‌نماید."
 
 #~ msgid "Azvir provides complete and beautiful solutions for your academy;"
 #~ msgstr "ازویر، راه‌حلی کامل و زیبا را برای مراکز آموزشی ارائه می‌دهد؛"
@@ -14705,8 +14654,7 @@ msgstr "کپی"
 #~ "Check list of certifications and search or filter in them to find your "
 #~ "certification."
 #~ msgstr ""
-#~ "بررسی لیست گواهی‌نامه‌ها و جستجو یا فیلتر کردن آنان برای یافتن گواهی‌نامه "
-#~ "موردنظر."
+#~ "بررسی لیست گواهی‌نامه‌ها و جستجو یا فیلتر کردن آنان برای یافتن گواهی‌نامه موردنظر."
 
 #~ msgid "Also add or edit specefic certification."
 #~ msgstr "هم‌چنین افزودن یا ویرایش گواهی‌نامه خاص."
@@ -14791,11 +14739,9 @@ msgstr "کپی"
 #~ msgstr "لیست :classroom"
 
 #~ msgid ""
-#~ "Check list of :classrooms and search or filter in them to find your :"
-#~ "classroom."
+#~ "Check list of :classrooms and search or filter in them to find your :classroom."
 #~ msgstr ""
-#~ "بررسی لیست :classrooms و جستجو یا فیلتر کردن آنان برای یافتن :classroom "
-#~ "موردنظر."
+#~ "بررسی لیست :classrooms و جستجو یا فیلتر کردن آنان برای یافتن :classroom موردنظر."
 
 #~ msgid "Also add or edit specefic :classroom."
 #~ msgstr "هم‌چنین افزودن یا ویرایش ::classroom خاص."
@@ -14833,8 +14779,7 @@ msgstr "کپی"
 #~ msgid ":courses list"
 #~ msgstr "لیست :courses"
 
-#~ msgid ""
-#~ "Check list of :courses and search or filter in them to find your :course."
+#~ msgid "Check list of :courses and search or filter in them to find your :course."
 #~ msgstr ""
 #~ "بررسی لیست :courses و جستجو یا فیلتر کردن آنان برای یافتن :course موردنظر."
 
@@ -14866,8 +14811,7 @@ msgstr "کپی"
 #~ msgstr "لیست درخواست‌های معادل‌سازی"
 
 #~ msgid ""
-#~ "Check list of equivalents and search or filter in them to find your "
-#~ "equivalent."
+#~ "Check list of equivalents and search or filter in them to find your equivalent."
 #~ msgstr "بررسی لیست معادل‌سازی‌ها و جستجو در آن‌ها و فیلتر کردن آن‌ها."
 
 #~ msgid ":topic"
@@ -14895,8 +14839,7 @@ msgstr "کپی"
 #~ msgstr "لیست :grades"
 
 #~ msgid "Check list of :grades and search or filter in them to find your :grade."
-#~ msgstr ""
-#~ "بررسی لیست :grades و جستجو یا فیلتر کردن آنان برای یافتن :grade مورد نظر."
+#~ msgstr "بررسی لیست :grades و جستجو یا فیلتر کردن آنان برای یافتن :grade مورد نظر."
 
 #~ msgid "Also add or edit specefic :grade."
 #~ msgstr "هم‌چنین افزودن یا ویرایش :grade خاص."
@@ -14932,8 +14875,7 @@ msgstr "کپی"
 #~ msgstr "لیست :groups"
 
 #~ msgid "Check list of :groups and search or filter in them to find your :group."
-#~ msgstr ""
-#~ "بررسی لیست :groups و جستجو یا فیلتر کردن آنان برای یافتن :group مورد نظر."
+#~ msgstr "بررسی لیست :groups و جستجو یا فیلتر کردن آنان برای یافتن :group مورد نظر."
 
 #~ msgid "Also add or edit specefic :group."
 #~ msgstr "هم‌چنین افزودن یا ویرایش :group خاص."
@@ -15002,8 +14944,7 @@ msgstr "کپی"
 #~ msgstr "ثبت غیبت برای :students در این :lesson"
 
 #~ msgid "By default all :students are present and you must check absence persons."
-#~ msgstr ""
-#~ "به طور پیش فرض همه :students حضور دارند و شما باید افراد غایب را چک کنید."
+#~ msgstr "به طور پیش فرض همه :students حضور دارند و شما باید افراد غایب را چک کنید."
 
 #~ msgid "Please select :topic"
 #~ msgstr "لطفا :topic را انتخاب کنید"
@@ -15044,8 +14985,7 @@ msgstr "کپی"
 #~ msgid ":lessons list"
 #~ msgstr "لیست :lessons"
 
-#~ msgid ""
-#~ "Check list of :lessons and search or filter in them to find your :lesson."
+#~ msgid "Check list of :lessons and search or filter in them to find your :lesson."
 #~ msgstr ""
 #~ "بررسی لیست :lessons و جستجو یا فیلتر کردن آنان برای یافتن :lesson موردنظر."
 
@@ -15110,8 +15050,8 @@ msgstr "کپی"
 #~ msgstr "انتخاب :teacher"
 
 #~ msgid ""
-#~ "Assign best :teacher for this :lesson or change it, also you can skip this "
-#~ "step and set it later!"
+#~ "Assign best :teacher for this :lesson or change it, also you can skip this step "
+#~ "and set it later!"
 #~ msgstr ""
 #~ "اختصاص بهترین :teacher برای این :lesson یا تغییر آن، همچنین شما می توانید از "
 #~ "این مرحله پرش کنید و این مرحله را بعدا تکمیل کنید!"
@@ -15246,8 +15186,7 @@ msgstr "کپی"
 #~ msgid ""
 #~ "set personal and birth identification detail and some other id detail like "
 #~ "passport and etc"
-#~ msgstr ""
-#~ "تنظیم جزئيات اطلاعات هویتی شخصی مثل تولد، پاسپورت، کدملی،‌ شناسنامه و غیره"
+#~ msgstr "تنظیم جزئيات اطلاعات هویتی شخصی مثل تولد، پاسپورت، کدملی،‌ شناسنامه و غیره"
 
 #~ msgid "Invalid :member type"
 #~ msgstr "نوع :member اشتباه است"
@@ -15387,8 +15326,7 @@ msgstr "کپی"
 #~ msgid ":pricetype list"
 #~ msgstr "لیست :pricetypes"
 
-#~ msgid ""
-#~ "Check list of price and search or filter in them to find your :pricetype."
+#~ msgid "Check list of price and search or filter in them to find your :pricetype."
 #~ msgstr ""
 #~ "بررسی لیست شهریه و جستجو یا فیلتر کردن بعضی از آنان جهت پیدا کردن :pricetype "
 #~ "مورد نظر."
@@ -15480,15 +15418,14 @@ msgstr "کپی"
 #~ "Change all settings of team and edit them to customize and have a good "
 #~ "experience."
 #~ msgstr ""
-#~ "تنظیم تمام تنظیمات تیم و ویرایش آن‌ها به‌همراه سفارشی‌سازی برای داشتن تجربه "
-#~ "کاربری مطلوب."
+#~ "تنظیم تمام تنظیمات تیم و ویرایش آن‌ها به‌همراه سفارشی‌سازی برای داشتن تجربه کاربری "
+#~ "مطلوب."
 
 #~ msgid "List of all :takenunits"
 #~ msgstr "لیست تمامی :takenunits"
 
 #~ msgid ""
-#~ "Check list of :takenunits and search or filter in them to find your :"
-#~ "takenunit."
+#~ "Check list of :takenunits and search or filter in them to find your :takenunit."
 #~ msgstr ""
 #~ "بررسی لیست :takenunits و جستجو یا فیلتر کردن آنان برای یافتن :takenunits "
 #~ "موردنظر."
@@ -15521,8 +15458,7 @@ msgstr "کپی"
 #~ msgstr "لیست :topics"
 
 #~ msgid "Check list of :topics and search or filter in them to find your :topic."
-#~ msgstr ""
-#~ "بررسی لیست :topics و جستجو یا فیلتر کردن آنان برای یافتن :topic مورد نظر."
+#~ msgstr "بررسی لیست :topics و جستجو یا فیلتر کردن آنان برای یافتن :topic مورد نظر."
 
 #~ msgid "Also add or edit specefic :topic."
 #~ msgstr "هم‌چنین افزودن یا ویرایش :topic خاص."
@@ -15652,8 +15588,7 @@ msgstr "کپی"
 #~ msgid "Request equivalent"
 #~ msgstr "درخواست معادل‌سازی"
 
-#~ msgid ""
-#~ "You can submit your equivalent request for review by experts on this page"
+#~ msgid "You can submit your equivalent request for review by experts on this page"
 #~ msgstr "شما می‌توانید درخواست معادل‌سازی خود را جهت بررسی کارشناسان ارسال کنید"
 
 #~ msgid "This lesson is disable!"
@@ -15761,8 +15696,8 @@ msgstr "کپی"
 #~ "Set personal and birth identification detail and some other id detail like "
 #~ "passport and etc"
 #~ msgstr ""
-#~ "جزئیات شخصی و شناسایی تولد را تنظیم کنید و برخی از جزئیات شناسه مانند پاسپورت "
-#~ "و غیره"
+#~ "جزئیات شخصی و شناسایی تولد را تنظیم کنید و برخی از جزئیات شناسه مانند پاسپورت و "
+#~ "غیره"
 
 #~ msgid "Electronic document of you"
 #~ msgstr "آرشیو اسناد الکترونیکی شما"
@@ -15797,8 +15732,7 @@ msgstr "کپی"
 #~ msgid "Please select your gender"
 #~ msgstr "لطفا جنسیت خود را انتخاب کنید"
 
-#~ msgid ""
-#~ "If this nationalcode for you, you must contanct to administrator to fix it"
+#~ msgid "If this nationalcode for you, you must contanct to administrator to fix it"
 #~ msgstr "اگر این کدملی برای شماست،‌ جهت رفع مشکل با مدیر سیستم تماس بگیرید"
 
 #~ msgid "Signup to :academy"
@@ -15997,13 +15931,13 @@ msgstr "کپی"
 
 #~ msgid "Leave it null to get pass score from your :academy master option"
 #~ msgstr ""
-#~ "در صورت عدم اطلاع یا نیاز به استفاده از مقدار پیش‌فرض :academy، نمره پاس شدن "
-#~ "را خالی بگذارید"
+#~ "در صورت عدم اطلاع یا نیاز به استفاده از مقدار پیش‌فرض :academy، نمره پاس شدن را "
+#~ "خالی بگذارید"
 
 #~ msgid "Leave it null to get life time from your :academy master option"
 #~ msgstr ""
-#~ "در صورت عدم اطلاع یا نیاز به استفاده از مقدار پیش‌فرض :academy، عمر نمره اخذ "
-#~ "شده را خالی بگذارید"
+#~ "در صورت عدم اطلاع یا نیاز به استفاده از مقدار پیش‌فرض :academy، عمر نمره اخذ شده "
+#~ "را خالی بگذارید"
 
 #~ msgid "Life time (days)"
 #~ msgstr "طول عمر به روز"
@@ -16048,8 +15982,8 @@ msgstr "کپی"
 #~ "Please send us a Certificate of Approval for passing this section so that we "
 #~ "will make it equivalent to you after reviewing it."
 #~ msgstr ""
-#~ "لطفا گواهی تایید گذراندن این درس را برای ما ارسال کنید تا ما پس از بررسی آن "
-#~ "را برای شما معادل سازی کنیم."
+#~ "لطفا گواهی تایید گذراندن این درس را برای ما ارسال کنید تا ما پس از بررسی آن را "
+#~ "برای شما معادل سازی کنیم."
 
 #~ msgid "Your pdf file"
 #~ msgstr "فایل پی‌دی‌اف شما"
@@ -16061,8 +15995,7 @@ msgstr "کپی"
 #~ msgstr "بازگذاری فایل"
 
 #~ msgid "Please contact to administrator to help you about this equivalent"
-#~ msgstr ""
-#~ "لطفا جهت راهنمایی در خصوص این معادل سازی با مدیر مرکز آموزشی تماس بگیرید"
+#~ msgstr "لطفا جهت راهنمایی در خصوص این معادل سازی با مدیر مرکز آموزشی تماس بگیرید"
 
 #~ msgid "Remain"
 #~ msgstr "باقی‌مانده"
@@ -16276,8 +16209,8 @@ msgstr "کپی"
 
 #~ msgid "We create best for your academy to enjoy and forget complexity."
 #~ msgstr ""
-#~ "بهترین و منعطف‌ترین نمونه ممکن را برای مرکز آموزشی شما ساخته‌ایم تا پیچیدگی را "
-#~ "از خاطر برده و از یک سرویس مدرن لذت ببرید."
+#~ "بهترین و منعطف‌ترین نمونه ممکن را برای مرکز آموزشی شما ساخته‌ایم تا پیچیدگی را از "
+#~ "خاطر برده و از یک سرویس مدرن لذت ببرید."
 
 #~ msgid ""
 #~ "Azvir can help you save your time to <span class='txtB'>focus on your main "
@@ -16289,8 +16222,7 @@ msgstr "کپی"
 #~ msgid "Azvir Educational Management System"
 #~ msgstr "سامانه مدیریت آموزشی ازویر"
 
-#~ msgid ""
-#~ "Azvir provide a full solution to control, monitor and manage you academy."
+#~ msgid "Azvir provide a full solution to control, monitor and manage you academy."
 #~ msgstr ""
 #~ "ازویر راهکار کاملی برای کنترل و نظارت و مدیریت بر مرکز آموزشی شما ارائه می‌دهد."
 
@@ -16360,49 +16292,48 @@ msgstr "کپی"
 #~ "towards the society is from among the important issues being focused on in "
 #~ "recent years."
 #~ msgstr ""
-#~ "موضوع مسئولیت اجتماعی سازمان‌ها و شرکت‌ها نسبت به جامعه از جمله موضوعات مهمی "
-#~ "است که در سال‌های اخیر مورد اهمیت قرار گرفته است."
+#~ "موضوع مسئولیت اجتماعی سازمان‌ها و شرکت‌ها نسبت به جامعه از جمله موضوعات مهمی است "
+#~ "که در سال‌های اخیر مورد اهمیت قرار گرفته است."
 
 #~ msgid ""
 #~ "The social responsibility of organizations relates to the organization's "
-#~ "responsibility towards society, human beings and the environment in which "
-#~ "they are active."
+#~ "responsibility towards society, human beings and the environment in which they "
+#~ "are active."
 #~ msgstr ""
 #~ "مسئولیت اجتماعی سازمان‌ها مرتبط با مسئولیت سازمان در برابر جامعه، انسان‌ها و "
-#~ "محیطی است که در آن فعالیت می‌کند. این مسئولیت فراتر از قوانین مرسوم و منافع "
-#~ "مالی سازمان بوده و پیشرفت منافع اجتماعی را دنبال می‌کند."
+#~ "محیطی است که در آن فعالیت می‌کند. این مسئولیت فراتر از قوانین مرسوم و منافع مالی "
+#~ "سازمان بوده و پیشرفت منافع اجتماعی را دنبال می‌کند."
 
 #~ msgid "Azvir's Social Responsibilities"
 #~ msgstr "مسئولیت‌های اجتماعی ازویر"
 
 #~ msgid ""
 #~ "Based on the mentioned definitions of social responsibility, Azvir considers "
-#~ "itself committed to society. Accordingly, besides attempting to offer "
-#~ "creative and effective services, Azvir has invariably had social "
-#~ "responsibility as one of its most important missions and, God willing, will "
-#~ "continue to do so."
+#~ "itself committed to society. Accordingly, besides attempting to offer creative "
+#~ "and effective services, Azvir has invariably had social responsibility as one "
+#~ "of its most important missions and, God willing, will continue to do so."
 #~ msgstr ""
 #~ "براساس تعاریفی که از مسئولیت اجتماعی شد، ازویر نیز خود را در قبال جامعه متعهد "
-#~ "دانسته و در کنار تلاش جهت ارائه خدمات خلاقانه و اثربخش، همواره مسئولیت "
-#~ "اجتماعی از مهم‌ترین ماموریت‌های ازویر بوده و به‌امیدخدا خواهد بود."
+#~ "دانسته و در کنار تلاش جهت ارائه خدمات خلاقانه و اثربخش، همواره مسئولیت اجتماعی "
+#~ "از مهم‌ترین ماموریت‌های ازویر بوده و به‌امیدخدا خواهد بود."
 
 #~ msgid "Environmentalist"
 #~ msgstr "دوست‌دار محیط‌زیست"
 
 #~ msgid ""
-#~ "In spite of technological advancements, paper usage is unfortunately "
-#~ "preferred to modern ways. One of Azvir's objectives is trying to change this "
-#~ "habit and contribute to the elimination of paper from the routine life and, "
-#~ "therefore, to save the environment."
+#~ "In spite of technological advancements, paper usage is unfortunately preferred "
+#~ "to modern ways. One of Azvir's objectives is trying to change this habit and "
+#~ "contribute to the elimination of paper from the routine life and, therefore, to "
+#~ "save the environment."
 #~ msgstr ""
-#~ "با وجود پیشرفت تکنولوژی، متاسفانه همچنان علاقه به استفاده از کاغذ قابل "
-#~ "پذیرش‌تر از روش‌های مدرن است؛ یکی از اهداف ازویر تلاش برای تغییر این عادت و کمک "
-#~ "به حذف کاغذ از زندگی روزمره و درنتیجه حفظ محیط‌زیست است."
+#~ "با وجود پیشرفت تکنولوژی، متاسفانه همچنان علاقه به استفاده از کاغذ قابل پذیرش‌تر "
+#~ "از روش‌های مدرن است؛ یکی از اهداف ازویر تلاش برای تغییر این عادت و کمک به حذف "
+#~ "کاغذ از زندگی روزمره و درنتیجه حفظ محیط‌زیست است."
 
 #~ msgid ""
 #~ "Accordingly, with the aim of total elimination of paper use as well as "
-#~ "electronic presentation of services, Azvir has taken significant steps "
-#~ "towards environmentalism. Be informed about Azvir's paper-saving quantity."
+#~ "electronic presentation of services, Azvir has taken significant steps towards "
+#~ "environmentalism. Be informed about Azvir's paper-saving quantity."
 #~ msgstr ""
 #~ "ازویر با حذف صددرصدی استفاده از کاغذ و ارائه خدمات به صورت الکترونیکی توانسته "
 #~ "اقدامی مهم در زمینه حفظ محیط‌زیست داشته باشد. از میزان صرفه‌جویی ازویر در مصرف "
@@ -16422,20 +16353,20 @@ msgstr "کپی"
 #~ msgid ""
 #~ "Azvir as well, with regard to its contribution to philanthropist activities, "
 #~ "will honorably provide them with its services free of charge. To make use of "
-#~ "these services, send your identity documents along with your request to "
-#~ "Azvir's support center."
+#~ "these services, send your identity documents along with your request to Azvir's "
+#~ "support center."
 #~ msgstr ""
 #~ "ازویر نیز با توجه به ماموریت خود در راستای کمک به فعالیت‌های خیرخواهانه، خدمات "
-#~ "خود را با افتخار و به‌صورت رایگان دراختیار آنان قرار می‌دهد. برای استفاده از "
-#~ "این خدمات، درخواست خود را همراه با مدارک احراز هویت به مرکز پشتیبانی ازویر "
-#~ "ارسال نمایید."
+#~ "خود را با افتخار و به‌صورت رایگان دراختیار آنان قرار می‌دهد. برای استفاده از این "
+#~ "خدمات، درخواست خود را همراه با مدارک احراز هویت به مرکز پشتیبانی ازویر ارسال "
+#~ "نمایید."
 
 #~ msgid "Recruiting Motivated Staff"
 #~ msgstr "بکارگیری نیروهای باانگیزه"
 
 #~ msgid ""
-#~ "An outstanding characteristic of any organization is its specialized and "
-#~ "highly motivated staff, playing a vital role in growth and development."
+#~ "An outstanding characteristic of any organization is its specialized and highly "
+#~ "motivated staff, playing a vital role in growth and development."
 #~ msgstr ""
 #~ "ویژگی چشم‌گیر و بارز هر سازمانی وجود نیروی‌ انسانی باانگیزه و متخصص است که نقشی "
 #~ "بنیادین در رشد و توسعه دارند."
@@ -16454,29 +16385,29 @@ msgstr "کپی"
 #~ msgstr "مشتری‌مداری و کسب رضایت کامل"
 
 #~ msgid ""
-#~ "Attracting people's participation as well as having their valuable presence "
-#~ "has always been a great honor for Azvir and to appreciate your support, in "
-#~ "return, Azvir presents services to promote customer satisfaction."
+#~ "Attracting people's participation as well as having their valuable presence has "
+#~ "always been a great honor for Azvir and to appreciate your support, in return, "
+#~ "Azvir presents services to promote customer satisfaction."
 #~ msgstr ""
 #~ "جلب مشارکت مردم و حضور ارزشمند آنان در ازویر باعث افتخار ما بوده و به‌منظور "
-#~ "قدردانی از این حمایت، ازویر نیز خدمات متقابلی را برای افزایش رضایت مشتریان "
-#~ "خود ارائه می‌کند."
+#~ "قدردانی از این حمایت، ازویر نیز خدمات متقابلی را برای افزایش رضایت مشتریان خود "
+#~ "ارائه می‌کند."
 
 #~ msgid ""
 #~ "These services are presented in different time intervals and are aimed at "
 #~ "costomer care mission and appreciation of your valuable presence."
 #~ msgstr ""
-#~ "این خدمات در بازه‌های زمانی متفاوت ارائه‌شده و در راستای ماموریت مشتری‌مداری و "
-#~ "ارج نهادن به این حضور گرانبها می‌باشد."
+#~ "این خدمات در بازه‌های زمانی متفاوت ارائه‌شده و در راستای ماموریت مشتری‌مداری و ارج "
+#~ "نهادن به این حضور گرانبها می‌باشد."
 
 #~ msgid ""
 #~ "We do our best to improve azvir's quality. So, knowing your valuable comments "
-#~ "about bugs and problems and more importantly your precious offers will help "
-#~ "us in this way."
+#~ "about bugs and problems and more importantly your precious offers will help us "
+#~ "in this way."
 #~ msgstr ""
-#~ "تمام تلاش ما بر افزایش کیفیت ازویر است. دانستن نظرات ارزشمند شما درباره‌ی "
-#~ "مشکلات و نواقص و صدالبته پیشنهادات گرانبهایتان از طریق فرم زیر سبب کمک به ما "
-#~ "برای این مهم خواهد شد."
+#~ "تمام تلاش ما بر افزایش کیفیت ازویر است. دانستن نظرات ارزشمند شما درباره‌ی مشکلات "
+#~ "و نواقص و صدالبته پیشنهادات گرانبهایتان از طریق فرم زیر سبب کمک به ما برای این "
+#~ "مهم خواهد شد."
 
 #~ msgid "You can access the ticketing status through this link"
 #~ msgstr "شما می‌توانید از طریق این لینک به وضعیت پیام خود دسترسی داشته باشید"
@@ -16662,8 +16593,8 @@ msgstr "کپی"
 #~ "Yes. If you ever decide that Azvir isn’t the best platform for your academy, "
 #~ "simply cancel your account."
 #~ msgstr ""
-#~ "بله. اگر هر زمانی تصمیم گرفتید که ازویر بهترین خدمات موجود را به مراکز "
-#~ "آموزشی‌ی شما ارائه نمی‌دهد، به‌راحتی اکانت خود را لغو کنید."
+#~ "بله. اگر هر زمانی تصمیم گرفتید که ازویر بهترین خدمات موجود را به مراکز آموزشی‌ی "
+#~ "شما ارائه نمی‌دهد، به‌راحتی اکانت خود را لغو کنید."
 
 #~ msgid "How long are your contracts?"
 #~ msgstr "مدت زمان قراردادهای شما چقدر است؟"
@@ -16684,13 +16615,13 @@ msgstr "کپی"
 
 #~ msgid ""
 #~ "The date you first select a paid plan will be the recurring billing date. For "
-#~ "example: If you sign up for the first time on July 15, all future charges "
-#~ "will be billed on the 15th of every month."
+#~ "example: If you sign up for the first time on July 15, all future charges will "
+#~ "be billed on the 15th of every month."
 #~ msgstr ""
-#~ "اولین روزی که پلن مالی را انتخاب کردید به‌عنوان روز شروع تعیین شده و در "
-#~ "دوره‌های زمانی تکرار می‌شود. به‌طور مثال اگر شما اولین بار در تاریخ ۱۷ خرداد پلن "
-#~ "خود را انتخاب کردید، تمامی فاکتورهای بعدی در تاریخ ۱۷‌ ام ماه‌های آینده صادر و "
-#~ "کسر خواهند شد."
+#~ "اولین روزی که پلن مالی را انتخاب کردید به‌عنوان روز شروع تعیین شده و در دوره‌های "
+#~ "زمانی تکرار می‌شود. به‌طور مثال اگر شما اولین بار در تاریخ ۱۷ خرداد پلن خود را "
+#~ "انتخاب کردید، تمامی فاکتورهای بعدی در تاریخ ۱۷‌ ام ماه‌های آینده صادر و کسر "
+#~ "خواهند شد."
 
 #~ msgid "General questions"
 #~ msgstr "سوالات عمومی"
@@ -16699,8 +16630,8 @@ msgstr "کپی"
 #~ msgstr "ازویر چگونه کار می‌کند؟"
 
 #~ msgid ""
-#~ "The easiest way to learn how to use Azvir is enter to it, which takes less "
-#~ "than one minute or check our demo."
+#~ "The easiest way to learn how to use Azvir is enter to it, which takes less than "
+#~ "one minute or check our demo."
 #~ msgstr ""
 #~ "آسان‌ترین راه برای یادگیری نحوه‌ی کار ازویر ورود به آن است که زمانی کمتر از یک "
 #~ "دقیقه خواهد گرفت. هم‌چنین می‌توانید نسخه‌ی دموی ما را بررسی کنید."
@@ -16722,8 +16653,8 @@ msgstr "کپی"
 
 #~ msgid "There are none. All Azvir plans include unlimited bandwidth for free."
 #~ msgstr ""
-#~ "هیچ! تمامی پلن‌های ازویر شامل پهنای‌باند نامحدود رایگان هستند و شما هزینه‌ای "
-#~ "برای پهنای‌باند پرداخت نمی‌کنید."
+#~ "هیچ! تمامی پلن‌های ازویر شامل پهنای‌باند نامحدود رایگان هستند و شما هزینه‌ای برای "
+#~ "پهنای‌باند پرداخت نمی‌کنید."
 
 #~ msgid "Do I need a web host?"
 #~ msgstr "آیا برای استفاده نیاز به هاست دارم؟"
@@ -16772,8 +16703,8 @@ msgstr "کپی"
 #~ "ایده‌های خود تمرکز کنید</span>."
 
 #~ msgid ""
-#~ "Utilizing Azvir's services means the acceptance of and commitment to "
-#~ "observing all the tenors of this agreement."
+#~ "Utilizing Azvir's services means the acceptance of and commitment to observing "
+#~ "all the tenors of this agreement."
 #~ msgstr ""
 #~ "استفاده از خدمات ازویر به منزله‌ پذیرش و تعهد به رعایت تمام مفاد مندرج در این "
 #~ "توافق‌نامه است."
@@ -16782,13 +16713,13 @@ msgstr "کپی"
 #~ "It is worth mentioning that due to the insecurity of cyberspace, you should "
 #~ "never post your vital information on either Azvir or any other services!"
 #~ msgstr ""
-#~ "لازم به یادآوری‌ست که با توجه به ناامن بودن فضای ‌مجازی، نه تنها در ازویر بلکه "
-#~ "در هیچ سرویس دیگری، اطلاعات حیاتی خود را منتشر نکنید!"
+#~ "لازم به یادآوری‌ست که با توجه به ناامن بودن فضای ‌مجازی، نه تنها در ازویر بلکه در "
+#~ "هیچ سرویس دیگری، اطلاعات حیاتی خود را منتشر نکنید!"
 
 #~ msgid ""
 #~ "User's personal information is strictly confidential in our service. Azvir "
-#~ "preserves the information as encoded and will not under any conditions "
-#~ "transfer it to another person."
+#~ "preserves the information as encoded and will not under any conditions transfer "
+#~ "it to another person."
 #~ msgstr ""
 #~ "اطلاعات شخصی کاربران در این سرویس به‌صورت کاملا محرمانه می‌باشد و ازویر این "
 #~ "اطلاعات را به صورت کدشده نگه‌داری کرده و تحت هیچ شرایطی آن‌را به غیر واگذار "
@@ -16806,48 +16737,46 @@ msgstr "کپی"
 
 #~ msgid ""
 #~ "Azvir will not offer any guarantee as to the quality of the products or "
-#~ "services presented by the teams and will not accept any responsibility in "
-#~ "this regard!"
+#~ "services presented by the teams and will not accept any responsibility in this "
+#~ "regard!"
 #~ msgstr ""
 #~ "ازویر هیچگونه ضمانتی در مورد کیفیت محصولات یا خدمات ارائه شده توسط تیم‌ها را "
 #~ "نمی‌پذیرد و مسئولیتی در قبال آن ندارد!"
 
 #~ msgid ""
-#~ "Users should assume responsibility for any harm, both material and "
-#~ "immaterial, caused by direct, indirect or penal factors and due to their "
-#~ "utilization of this service; and, Azvir bears no responsibility accordingly."
+#~ "Users should assume responsibility for any harm, both material and immaterial, "
+#~ "caused by direct, indirect or penal factors and due to their utilization of "
+#~ "this service; and, Azvir bears no responsibility accordingly."
 #~ msgstr ""
-#~ "خسارت‌های‌ مادی و معنوی ناشی از عوامل مستقیم، غیرمستقیم و کیفری، در قبال "
-#~ "استفاده از این سرویس برعهده کاربران بوده و ازویر هیچ‌گونه مسئولیتی دراین‌باره "
-#~ "ندارد."
+#~ "خسارت‌های‌ مادی و معنوی ناشی از عوامل مستقیم، غیرمستقیم و کیفری، در قبال استفاده "
+#~ "از این سرویس برعهده کاربران بوده و ازویر هیچ‌گونه مسئولیتی دراین‌باره ندارد."
 
 #~ msgid ""
-#~ "Azvir accepts no responsibility, under any conditions, for the harms caused "
-#~ "by users' mutual trust in each other or by the disclosure of information by "
-#~ "users."
+#~ "Azvir accepts no responsibility, under any conditions, for the harms caused by "
+#~ "users' mutual trust in each other or by the disclosure of information by users."
 #~ msgstr ""
 #~ "تحت هیچ شرایطی ازویر مسئولیت خسارت‌های وارده در اثر اعتماد و اتکاء اعضاء به "
 #~ "یکدیگر و فاش‌شدن اطلاعات توسط کاربر را نمی‌پذیرد."
 
 #~ msgid ""
-#~ "Azvir will do its best to protect both the users' information and the "
-#~ "service; however, regarding the lack of certainty within the cyberspace, it "
-#~ "will not assume any responsibility for the loss of the information entered on "
-#~ "the service."
+#~ "Azvir will do its best to protect both the users' information and the service; "
+#~ "however, regarding the lack of certainty within the cyberspace, it will not "
+#~ "assume any responsibility for the loss of the information entered on the "
+#~ "service."
 #~ msgstr ""
 #~ "ازویر تمام تلاش خود را برای محافظت از اطلاعات کاربران و سرویس می‌نماید؛ ولی با "
-#~ "توجه به عدم قطعیت در فضای مجازی، مسئولیتی در مورد از بين رفتن اطلاعات "
-#~ "قرارگرفته بر روی سرویس نخواهد پذیرفت."
+#~ "توجه به عدم قطعیت در فضای مجازی، مسئولیتی در مورد از بين رفتن اطلاعات قرارگرفته "
+#~ "بر روی سرویس نخواهد پذیرفت."
 
 #~ msgid ""
 #~ "We will publicize our information and news only via Azvir's formal website. "
-#~ "Accordingly, those who publicize any attributed news and claims, within "
-#~ "social media and networks, must assume the responsibility and Azvir will not "
-#~ "assume any responsibility."
+#~ "Accordingly, those who publicize any attributed news and claims, within social "
+#~ "media and networks, must assume the responsibility and Azvir will not assume "
+#~ "any responsibility."
 #~ msgstr ""
 #~ "اخبار و اطلاعات ما تنها از طریق وب‌سایت رسمی ازویر منتشر می‌شود. مسئولیت هرگونه "
-#~ "خبر و ادعای نسبت‌داده‌شده در رسانه‌ها و شبکه‌های اجتماعی به عهده منتشرکننده آن "
-#~ "بوده و ازویر مسئولیتی در قبال آن ندارد."
+#~ "خبر و ادعای نسبت‌داده‌شده در رسانه‌ها و شبکه‌های اجتماعی به عهده منتشرکننده آن بوده "
+#~ "و ازویر مسئولیتی در قبال آن ندارد."
 
 #~ msgid ""
 #~ "Azvir will bear no responsibility for whatsoever messages sent to users, "
@@ -16862,17 +16791,16 @@ msgstr "کپی"
 #~ "Any misuse of Azvir's trade name is prohibited and will be suable by making a "
 #~ "complaint to the legal competent authorities."
 #~ msgstr ""
-#~ "هرگونه سوءاستفاده از نام تجاری ازویر ممنوع بوده و از طریق شکایت به مراجع "
-#~ "قانونی دارای صلاحیت، قابل پیگرد خواهد بود."
+#~ "هرگونه سوءاستفاده از نام تجاری ازویر ممنوع بوده و از طریق شکایت به مراجع قانونی "
+#~ "دارای صلاحیت، قابل پیگرد خواهد بود."
 
 #~ msgid ""
 #~ "Furthermore, this agreement, under the name Terms and Conditions, will be "
 #~ "available and observable, in all pages of the website. Users will be "
 #~ "responsible for a lack of information on the most recent changes."
 #~ msgstr ""
-#~ "هم‌چنین این توافق‌نامه در تمام صفحات وب‌سایت با عنوان شرایط و قوانین موجود و "
-#~ "قابل مشاهده است. مسئولیت عدم کسب اطلاع از آخرین تغییرات برعهده کاربر خواهد "
-#~ "بود."
+#~ "هم‌چنین این توافق‌نامه در تمام صفحات وب‌سایت با عنوان شرایط و قوانین موجود و قابل "
+#~ "مشاهده است. مسئولیت عدم کسب اطلاع از آخرین تغییرات برعهده کاربر خواهد بود."
 
 #~ msgid ""
 #~ "It should be mentioned that in case there would be any modifications in the "
@@ -16886,20 +16814,18 @@ msgstr "کپی"
 #~ msgstr "حریم‌خصوصی چیست؟"
 
 #~ msgid ""
-#~ "Privacy means that any individual is entitled to choose the information "
-#~ "related to them, and selectively, share it with others."
+#~ "Privacy means that any individual is entitled to choose the information related "
+#~ "to them, and selectively, share it with others."
 #~ msgstr ""
 #~ "حریم‌خصوصی یعنی شخص بتواند اطلاعات مربوط به خود را مجزا کرده و به انتخاب خویش، "
 #~ "در برابر دیگران آشکار کند."
 
 #~ msgid ""
-#~ "privacy is so important for mental peace as well as a peaceful personality "
-#~ "that some experts have considered invasion of privacy disrespectful to human "
-#~ "dignity."
+#~ "privacy is so important for mental peace as well as a peaceful personality that "
+#~ "some experts have considered invasion of privacy disrespectful to human dignity."
 #~ msgstr ""
-#~ "حریم‌خصوصی برای آرامش روانی و شخصیتی، بسیار مهم است تا جایی‌که بعضی از "
-#~ "صاحب‌نظران نقض آن را به عنوان یک اقدام توهین‌آمیز نسبت به شرافت بشری قلمداد "
-#~ "کرده‌اند."
+#~ "حریم‌خصوصی برای آرامش روانی و شخصیتی، بسیار مهم است تا جایی‌که بعضی از صاحب‌نظران "
+#~ "نقض آن را به عنوان یک اقدام توهین‌آمیز نسبت به شرافت بشری قلمداد کرده‌اند."
 
 #~ msgid "Controversies over the Invasion of Privacy"
 #~ msgstr "جنجال‌های نقض حریم‌خصوصی"
@@ -16915,17 +16841,17 @@ msgstr "کپی"
 #~ "Accordingly, formulating privacy policies is regarded as one of the crucial "
 #~ "concerns of technology companies."
 #~ msgstr ""
-#~ "به همین دلیل، تعیین سیاست‌های حریم‌خصوصی جزء دغدغه‌های بسیار مهم شرکت‌های "
-#~ "فناورانه محسوب می‌شود."
+#~ "به همین دلیل، تعیین سیاست‌های حریم‌خصوصی جزء دغدغه‌های بسیار مهم شرکت‌های فناورانه "
+#~ "محسوب می‌شود."
 
 #~ msgid ""
-#~ "Meanwhile, widespread controversies have been provoked over invasion of "
-#~ "privacy in e-commerce so that, occasionally, the regulations have to be "
-#~ "revised to eliminate the existing weaknesses."
+#~ "Meanwhile, widespread controversies have been provoked over invasion of privacy "
+#~ "in e-commerce so that, occasionally, the regulations have to be revised to "
+#~ "eliminate the existing weaknesses."
 #~ msgstr ""
-#~ "در این میان جنجال‌هایی گسترده به‌خاطر نقض حریم‌خصوصی از کسب‌وکارهای الکترونیکی "
-#~ "صورت گرفته است؛ به‌گونه‌ای که هرچند وقت یک‌بار مجبور هستند قوانین را بازبینی "
-#~ "نموده تا حفره‌های موجود را رفع نمایند."
+#~ "در این میان جنجال‌هایی گسترده به‌خاطر نقض حریم‌خصوصی از کسب‌وکارهای الکترونیکی صورت "
+#~ "گرفته است؛ به‌گونه‌ای که هرچند وقت یک‌بار مجبور هستند قوانین را بازبینی نموده تا "
+#~ "حفره‌های موجود را رفع نمایند."
 
 #~ msgid "Privacy from Our Point of View"
 #~ msgstr "حریم‌خصوصی از دیدگاه ما"
@@ -16936,8 +16862,8 @@ msgstr "کپی"
 #~ msgstr "رو راست باشیم، فضای مجازی محل امنی برای اطلاعات خصوصی نیست."
 
 #~ msgid ""
-#~ "For that reason, Azvir makes no request for important information of yours "
-#~ "and allow to save some general information including age, gender, education, "
+#~ "For that reason, Azvir makes no request for important information of yours and "
+#~ "allow to save some general information including age, gender, education, "
 #~ "interests, etc  is only for private use of your team or company."
 #~ msgstr ""
 #~ "به‌همین دلیل، ازویر درخواستی برای ثبت اطلاعات مهم شده نداشته و تنها اجازه ثبت "
@@ -16950,27 +16876,27 @@ msgstr "کپی"
 #~ msgstr "لازم به توضیح است که ثبت موارد ذکرشده نیز به‌صورت کاملا اختیاری است."
 
 #~ msgid ""
-#~ "However, taking the nature of cyberspace into account, we should remember "
-#~ "that offering an absolute assurance might not be possible."
+#~ "However, taking the nature of cyberspace into account, we should remember that "
+#~ "offering an absolute assurance might not be possible."
 #~ msgstr ""
 #~ "این را در نظر داشته باشید که با توجه به ماهیت فضای مجازی، ارائه تضمین صددرصدی "
 #~ "به‌طور کل ممکن نیست."
 
 #~ msgid ""
 #~ "Assuring privacy and security, with that ideal concept we bear in mind, does "
-#~ "not exist; and if somebody gives you an assurance of securing your privacy, "
-#~ "he has certainly abused your trust."
+#~ "not exist; and if somebody gives you an assurance of securing your privacy, he "
+#~ "has certainly abused your trust."
 #~ msgstr ""
-#~ "تضمین امنیت و حریم خصوصی به آن معنای آرمانی که ما در ذهن خود داریم وجود "
-#~ "ندارد، و اگر کسی در دنیای مجازی، تضمین امنیت حریم‌خصوصی شما را بدهد قطعا از "
-#~ "اعتماد شما سوءاستفاده کرده است."
+#~ "تضمین امنیت و حریم خصوصی به آن معنای آرمانی که ما در ذهن خود داریم وجود ندارد، "
+#~ "و اگر کسی در دنیای مجازی، تضمین امنیت حریم‌خصوصی شما را بدهد قطعا از اعتماد شما "
+#~ "سوءاستفاده کرده است."
 
 #~ msgid ""
 #~ "Upon buying any digital or the so-called smart device, you have invaded your "
 #~ "own privacy yourself."
 #~ msgstr ""
-#~ "شما با خرید هر دستگاه دیجیتالی یا به اصطلاح هوشمند، با دست خود حریم‌خصوصی‌تان "
-#~ "را نقض کرده‌اید."
+#~ "شما با خرید هر دستگاه دیجیتالی یا به اصطلاح هوشمند، با دست خود حریم‌خصوصی‌تان را "
+#~ "نقض کرده‌اید."
 
 #~ msgid ""
 #~ "If you want your privacy not to be invaded, you should depart from technology "
@@ -16980,8 +16906,8 @@ msgstr "کپی"
 #~ "بگیرید و با هر دستگاه دیجیتالی و هوشمندی خداحافظی کنید."
 
 #~ msgid ""
-#~ "In fact, we have employed all updated technologies of the world to provide "
-#~ "you with the maximum security."
+#~ "In fact, we have employed all updated technologies of the world to provide you "
+#~ "with the maximum security."
 #~ msgstr ""
 #~ "ما به‌لحاظ فنی تمام تکنولوژی‌های روز دنیا را به‌کار برده‌ایم تا امنیت حداکثری را "
 #~ "برای شما به ارمغان بیاوریم."
@@ -16990,56 +16916,55 @@ msgstr "کپی"
 #~ "As the final remark, we wish to assure you that our main concern is to secure "
 #~ "your privacy and protect your information against impermissible access."
 #~ msgstr ""
-#~ "در پایان، این اطمینان را به شما می‌دهیم که دغدغه‌ی ما، حفظ حریم‌خصوصی و محافظت "
-#~ "از اطلاعات شما در برابر دسترسی‌های غیرمجاز هست."
+#~ "در پایان، این اطمینان را به شما می‌دهیم که دغدغه‌ی ما، حفظ حریم‌خصوصی و محافظت از "
+#~ "اطلاعات شما در برابر دسترسی‌های غیرمجاز هست."
 
 #~ msgid ""
 #~ "The easiest way to learn how to use Tejark is enter to it, which takes less "
 #~ "than 3 minutes to setup your team."
 #~ msgstr ""
-#~ "آسان‌ترین راه برای یادگیری نحوه‌ی کارکرد جیبرس ورود به آن است که کمتر از ۳ "
-#~ "دقیقه از زمان شما را برای راه‌اندازی اولیه و شروع به‌کار می‌گیرد."
+#~ "آسان‌ترین راه برای یادگیری نحوه‌ی کارکرد جیبرس ورود به آن است که کمتر از ۳ دقیقه "
+#~ "از زمان شما را برای راه‌اندازی اولیه و شروع به‌کار می‌گیرد."
 
 #~ msgid ""
 #~ "Yes. You must select your plan and pay for at least one month to start using "
 #~ "Azvir."
 #~ msgstr ""
-#~ "بله. شما باید پلن خود را انتخاب کنید و با پرداخت حد اقل یک ماه هزینه کار خود "
-#~ "را با ازویر شروع کنید."
+#~ "بله. شما باید پلن خود را انتخاب کنید و با پرداخت حد اقل یک ماه هزینه کار خود را "
+#~ "با ازویر شروع کنید."
 
 #~ msgid ""
 #~ "Yes. If you ever decide that Azvir isn’t the best platform for your business, "
 #~ "simply cancel your account."
 #~ msgstr ""
-#~ "بله. اگر هر زمانی تصمیم گرفتید که ازویر بهترین خدمات موجود را به کسب و کار "
-#~ "شما ارائه نمی‌دهد، به‌راحتی اکانت خود را لغو کنید."
+#~ "بله. اگر هر زمانی تصمیم گرفتید که ازویر بهترین خدمات موجود را به کسب و کار شما "
+#~ "ارائه نمی‌دهد، به‌راحتی اکانت خود را لغو کنید."
 
 #~ msgid "All Azvir plans are month to month. simple."
 #~ msgstr "تمامی پلن‌های ازویر به مدت یکماه است. ساده‌ی ساده."
 
 #~ msgid "Also we can run service for one year with 2 month discount."
 #~ msgstr ""
-#~ "همچنین شما می‌توانید سرویس را به مدت یک سال اجرا کرده و در این صورت دو ماه "
-#~ "تخفیف بگیرید."
+#~ "همچنین شما می‌توانید سرویس را به مدت یک سال اجرا کرده و در این صورت دو ماه تخفیف "
+#~ "بگیرید."
 
 #~ msgid "Some extra features are binded to Azvir."
-#~ msgstr ""
-#~ "برخی از ویژگی‌های اضافی منحصربه‌فرد به سامانه مدیریت آموزشی ازویر متصل شد."
+#~ msgstr "برخی از ویژگی‌های اضافی منحصربه‌فرد به سامانه مدیریت آموزشی ازویر متصل شد."
 
 #~ msgid "Fourth version of Azvir is completely ready."
 #~ msgstr "نسخه چهارم ازویر کاملا آماده شد."
 
 #~ msgid ""
-#~ "Everyone can boost their academies by power of <a target='_blank' "
-#~ "href='https://Azvir.com'>Azvir</a>."
+#~ "Everyone can boost their academies by power of <a target='_blank' href='https://"
+#~ "Azvir.com'>Azvir</a>."
 #~ msgstr ""
 #~ "هر کسی می‌تواند با قدرت <a target='_blank' href='https://Azvir.com'>ازویر</a> "
 #~ "مراکز آموزشی خود را پرشتاب کرده و تقویت کند."
 
 #~ msgid ""
 #~ "Completely change our foundation and use our new reengineered products <a "
-#~ "target='_blank' href='https://dash.ermile.com'>Dash</a> and <a "
-#~ "target='_blank' href='https://Siftal.ir'>Siftal</a>."
+#~ "target='_blank' href='https://dash.ermile.com'>Dash</a> and <a target='_blank' "
+#~ "href='https://Siftal.ir'>Siftal</a>."
 #~ msgstr ""
 #~ "ما به‌طور کامل زیربنای سیستم خود را تغییر دادیم و با خلق دو محصول <a "
 #~ "target='_blank' href='https://dash.ermile.com'>دش</a> و <a target='_blank' "
@@ -17077,17 +17002,16 @@ msgstr "کپی"
 #~ msgstr "۲ صبح"
 
 #~ msgid ""
-#~ "The name of project selected as Azvir and <a target='_blank' href='http://"
-#~ "Azvir.ir'>Azvir.ir</a> domains registered."
+#~ "The name of project selected as Azvir and <a target='_blank' href='http://Azvir."
+#~ "ir'>Azvir.ir</a> domains registered."
 #~ msgstr ""
 #~ "نام ازویر برای این پروژه برگزیده شده و دامنه‌ی <a target='_blank' href='http://"
 #~ "Azvir.ir'>Azvir.ir</a> ثبت شد."
 
-#~ msgid ""
-#~ "Second version of Azvir released on web for Holy Shrine of Fatima Masume."
+#~ msgid "Second version of Azvir released on web for Holy Shrine of Fatima Masume."
 #~ msgstr ""
-#~ "نسخه دوم ازویر تحت وب و برای استفاده مرکز قرآن و حدیث حرم مطهر حضرت معصومه "
-#~ "سلام الله علیها منتشر شد."
+#~ "نسخه دوم ازویر تحت وب و برای استفاده مرکز قرآن و حدیث حرم مطهر حضرت معصومه سلام "
+#~ "الله علیها منتشر شد."
 
 #~ msgid "Second version of Azvir started."
 #~ msgstr "نسخه دوم ازویر شروع شد."
@@ -17095,8 +17019,8 @@ msgstr "کپی"
 #~ msgid ""
 #~ "First version of Azvir released in windows for Holy Shrine of Fatima Masume."
 #~ msgstr ""
-#~ "نسخه اول ازویر تحت سیستم‌عامل ویندوز برای استفاده مرکز قرآن و حدیث حرم مطهر "
-#~ "حضرت معصومه سلام الله علیها منتشر شد."
+#~ "نسخه اول ازویر تحت سیستم‌عامل ویندوز برای استفاده مرکز قرآن و حدیث حرم مطهر حضرت "
+#~ "معصومه سلام الله علیها منتشر شد."
 
 #~ msgid "Be patient..."
 #~ msgstr "صبور باشید..."
@@ -17319,8 +17243,7 @@ msgstr "کپی"
 
 #~ msgid ""
 #~ "Description of :classroom like address or some other detail to show in website"
-#~ msgstr ""
-#~ "توضیحاتی درباره :classroom مثل آدرس یا سایر اطلاعات برای نمایش در وب‌سایت"
+#~ msgstr "توضیحاتی درباره :classroom مثل آدرس یا سایر اطلاعات برای نمایش در وب‌سایت"
 
 #~ msgid "Maximum person"
 #~ msgstr "حداکثر نفرات"
@@ -17641,8 +17564,7 @@ msgstr "کپی"
 #~ msgstr "افزایش یا کاهش سقف اعتبار :member"
 
 #~ msgid ""
-#~ ":members can take unit with this credit until max value of set for each :"
-#~ "member."
+#~ ":members can take unit with this credit until max value of set for each :member."
 #~ msgstr ":members می‌توانند تا سقف تعیین شده در اعتبارشان انتخاب واحد کنند."
 
 #~ msgid "Here you can increase or decrease max value of :member credit."
@@ -17703,8 +17625,8 @@ msgstr "کپی"
 #~ msgid ""
 #~ "The setting to force assign a :teacher to :topic in your academy is disabled."
 #~ msgstr ""
-#~ "تنظیمات مربوط به اجبار به اختصاص :teacher به :topic در مرکز آموزشی شما غیر "
-#~ "فعال است."
+#~ "تنظیمات مربوط به اجبار به اختصاص :teacher به :topic در مرکز آموزشی شما غیر فعال "
+#~ "است."
 
 #~ msgid "Choose :teacher and press add button to add tho this :topic"
 #~ msgstr "انتخاب :teacher و فشردن دکمه افزودن برای افزودن به این :topic"
@@ -18257,11 +18179,9 @@ msgstr "کپی"
 #~ msgstr "مطمئنید"
 
 #~ msgid ""
-#~ "You must insert some :semester and :topic and after that you can add new "
-#~ "lesson."
+#~ "You must insert some :semester and :topic and after that you can add new lesson."
 #~ msgstr ""
-#~ "شما باید تعدادی :semester و :topic اضافه کنید و سپس می توانید یک درس اضافه "
-#~ "کنید."
+#~ "شما باید تعدادی :semester و :topic اضافه کنید و سپس می توانید یک درس اضافه کنید."
 
 #~ msgid ":lesson with :semester"
 #~ msgstr ":lesson در قالب :semester"
@@ -18338,8 +18258,8 @@ msgstr "کپی"
 #~ "Search and choose :student then press enter or press on it for add to this :"
 #~ "lesson"
 #~ msgstr ""
-#~ "جستجو و انتخاب :student با فشردن دکمه اینتر یا فشردن روی آن برای افزودن به "
-#~ "این :lesson"
+#~ "جستجو و انتخاب :student با فشردن دکمه اینتر یا فشردن روی آن برای افزودن به این :"
+#~ "lesson"
 
 #~ msgid "Search in existing :students"
 #~ msgstr "جستجو در :students موجود"
@@ -18552,8 +18472,8 @@ msgstr "کپی"
 #~ "Name or title of academy used in all pages of this academy and you can change "
 #~ "it later"
 #~ msgstr ""
-#~ "نام یا عنوان مرکز آموزشی در تمامی صفحات این مرکز آموزشی مورد استفاده قرار "
-#~ "گرفته و البته شما می‌توانید آن را در آینده تغییر دهید"
+#~ "نام یا عنوان مرکز آموزشی در تمامی صفحات این مرکز آموزشی مورد استفاده قرار گرفته "
+#~ "و البته شما می‌توانید آن را در آینده تغییر دهید"
 
 #~ msgid "Academy short name"
 #~ msgstr "نام کوتاه مرکز آموزشی"
@@ -18827,8 +18747,8 @@ msgstr "کپی"
 
 #~ msgid "If all card is checked, learn readed card again before expire!"
 #~ msgstr ""
-#~ "اگر تمام کارت‌ها بررسی شده بودند، کارت‌های خوانده شده را که هنوز منقضی نشدند "
-#~ "برای یادگیری آماده کن!"
+#~ "اگر تمام کارت‌ها بررسی شده بودند، کارت‌های خوانده شده را که هنوز منقضی نشدند برای "
+#~ "یادگیری آماده کن!"
 
 #~ msgid "Time limit per each session"
 #~ msgstr "محدودیت زمان به‌ازای هر تلاش برای یادگیری"
@@ -20010,8 +19930,7 @@ msgstr "کپی"
 #~ msgstr ":lesson با موفقیت ثبت شد"
 
 #~ msgid "Please set start date and end date or set the lesson in one :semester"
-#~ msgstr ""
-#~ "لطفا کلاس را در یک ترم قرار داده یا تاریخ شروع و پایان کلاس را تکمیل کنید"
+#~ msgstr "لطفا کلاس را در یک ترم قرار داده یا تاریخ شروع و پایان کلاس را تکمیل کنید"
 
 #~ msgid "Please set :topic"
 #~ msgstr "لطفا سرفصل را وارد کنید"
