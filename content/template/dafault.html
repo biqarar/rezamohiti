@@ -36,7 +36,7 @@
 
 {%if datarow.type == 'post' and datarow.datemodified%}
     <div class='msg simple f mT20'>
-      <div class="c"><time datetime="{{datarow.datemodified}}">{{datarow.publishdate | tdate('d F Y - H:i')}}</time></div>
+      <div class="c"><time datetime="{{datarow.datemodified}}">{{datarow.publishdate | dt }}</time></div>
       <div class="cauto os"><a href="{{url.base}}/n/{{datarow.id}}" title='{%trans "For share via social networks"%}'>{%trans "News Code"%} <span class="txtB">{{datarow.id}}</span></a></div>
     </div>
 {%endif%}
