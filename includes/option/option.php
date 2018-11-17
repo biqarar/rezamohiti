@@ -71,7 +71,7 @@ self::$config['default_unit'] = 1;
 self::$config['force_unit']   = 1;
 
 
-self::$config['enter']['verify_telegram'] = false;
+self::$config['enter']['verify_telegram'] = true;
 self::$config['enter']['verify_sms']      = true;
 self::$config['enter']['verify_call']     = true;
 self::$config['enter']['verify_sendsms']  = false;
