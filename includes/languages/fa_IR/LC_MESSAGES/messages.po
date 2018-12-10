@@ -7668,7 +7668,7 @@ msgstr "نمایش دسته‌بندی‌ها در کنترل پنل"
 
 #: dash/addons/includes/languages/trans_static.php:450
 msgid "cpTagView"
-msgstr "نایش کلید‌واژه‌ها در کنترل پنل"
+msgstr "نمایش کلید‌واژه‌ها در کنترل پنل"
 
 #: dash/addons/includes/languages/trans_static.php:451
 msgid "cpCategoryEdit"
@@ -16151,7 +16151,7 @@ msgstr "کپی"
 #~ msgstr "تلفن‌همراه مادر"
 
 #~ msgid "Education2"
-#~ msgstr "تحصیلات۲"
+#~ msgstr "تحصیلات ثانوی"
 
 #~ msgid "Education Course"
 #~ msgstr "رشته تحصیلی"
@@ -20014,7 +20014,7 @@ msgstr "کپی"
 #~ msgstr "آواتار نامعتبر"
 
 #~ msgid "Invalid education2"
-#~ msgstr "تحصیلات۲ نامعتبر"
+#~ msgstr "تحصیلات ثانوی نامعتبر"
 
 #~ msgid "Invalid educationcourse"
 #~ msgstr "رشته تحصیلی نامعتبر"
