@@ -3722,7 +3722,7 @@ msgstr "برای اضافه کردن فایل گالری عکس در اینجا 
 #: dash/addons/includes/languages/trans_dash.php:405
 #: rezamohiti/includes/languages/trans_dash.php:405
 msgid "Maximum file size"
-msgstr "حد اکثر اندازه فایل"
+msgstr "حداکثر اندازه فایل"
 
 #: dash/addons/includes/languages/trans_dash.php:406
 #: rezamohiti/includes/languages/trans_addons.php:171
@@ -10046,7 +10046,7 @@ msgid ""
 " whit max connetcion :max_connections"
 msgstr ""
 ":url \n"
-" به همراه حد اکثر کانکشن :max_connections"
+" به همراه حداکثر کانکشن :max_connections"
 
 #: dash/addons/includes/languages/trans_static.php:1083
 msgid "Add transaction :title whit :plus plus and :minus minus to :user_id"
@@ -14971,7 +14971,7 @@ msgstr "کپی"
 #~ msgstr "ویرایش تنظیمات عمومی این :lesson"
 
 #~ msgid "Set some setting like max person and gender of :student in this :lesson."
-#~ msgstr "ثبت برخی از تنظیمات مانند حد اکثر نفرات و جنسیت :student این :lesson."
+#~ msgstr "ثبت برخی از تنظیمات مانند حداکثر نفرات و جنسیت :student این :lesson."
 
 #~ msgid "The :lesson set on draft"
 #~ msgstr ":lesson در حالت پیش‌نویس قرار گرفت"
@@ -15627,7 +15627,7 @@ msgstr "کپی"
 #~ "کنید."
 
 #~ msgid "Your units in this :semester is full."
-#~ msgstr "شما حد اکثر واحد مربوطه را در این :semester  دریافت کرده اید."
+#~ msgstr "شما حداکثر واحد مربوطه را در این :semester  دریافت کرده اید."
 
 #~ msgid "Time of this lesson is owerwrite some your old lesson."
 #~ msgstr "ساعات این کلاس با ساعات کلاس‌های انتخابی شما تداخل دارد."
@@ -16446,13 +16446,13 @@ msgstr "کپی"
 #~ msgstr "محدودیت‌های حداکثر داده‌ها"
 
 #~ msgid "Max number of members"
-#~ msgstr "حد اکثر اعضاء"
+#~ msgstr "حداکثر اعضاء"
 
 #~ msgid "Max number of teachers"
 #~ msgstr "حداکثر تعداد اساتید"
 
 #~ msgid "Max number of experts"
-#~ msgstr "حد اکثر کارشناسان"
+#~ msgstr "حداکثر کارشناسان"
 
 #~ msgid "Atttendance"
 #~ msgstr "حضور و غیاب"
@@ -16566,7 +16566,7 @@ msgstr "کپی"
 #~ msgstr "در همان روز کاری"
 
 #~ msgid "max 8 hour"
-#~ msgstr "حد اکثر ۸ ساعت"
+#~ msgstr "حداکثر ۸ ساعت"
 
 #~ msgid "Emergency phone support"
 #~ msgstr "پشتیبانی اضطراری تلفنی"
@@ -16669,7 +16669,7 @@ msgstr "کپی"
 #~ msgstr "ماهیانه"
 
 #~ msgid "Maximum"
-#~ msgstr "حد اکثر"
+#~ msgstr "حداکثر"
 
 #~ msgid "Introduction website"
 #~ msgstr "وبسایت معرفی"
@@ -17910,7 +17910,7 @@ msgstr "کپی"
 #~ msgstr "نمره پاس شدن"
 
 #~ msgid "Public max score"
-#~ msgstr "حد اکثر امتیاز"
+#~ msgstr "حداکثر امتیاز"
 
 #~ msgid "Public Allow absence"
 #~ msgstr "تعداد مجاز غیبت"
@@ -17952,7 +17952,7 @@ msgstr "کپی"
 #~ msgstr "طول عمر عمومی سرفصل"
 
 #~ msgid "Public max credit"
-#~ msgstr "حد اکثر اعتبار عضو"
+#~ msgstr "حداکثر اعتبار عضو"
 
 #~ msgid "Max :members in :lesson"
 #~ msgstr "حداکثر :members در :lesson"
@@ -19460,7 +19460,7 @@ msgstr "کپی"
 #~ msgstr "طول عمر سرفصل :academy خارج از محدوده است"
 
 #~ msgid "Max credit of :academy must be a number"
-#~ msgstr "حد اکثر اعتبار :academy باید به صورت عددی وارد شود"
+#~ msgstr "حداکثر اعتبار :academy باید به صورت عددی وارد شود"
 
 #~ msgid "Max credit of :academy is out of range"
 #~ msgstr "سقف اعتبار :academy خارج از محدوده است"
@@ -19481,7 +19481,7 @@ msgstr "کپی"
 #~ msgstr "تاریخ شروع باید کوچک‌تر از تاریخ پایان باشد"
 
 #~ msgid "Invalid max score"
-#~ msgstr "حد اکثر امتیاز اشتباه است"
+#~ msgstr "حداکثر امتیاز اشتباه است"
 
 #~ msgid "Please set the max :member in :lesson as a number"
 #~ msgstr "لطفا مقدار حداکثر :member در :lesson را به صورت عددی وارد کنید"
@@ -19891,7 +19891,7 @@ msgstr "کپی"
 #~ msgstr "رشته جنسیت اشتباه است"
 
 #~ msgid "Max person must be less than :max"
-#~ msgstr "حد اکثر نفرات باید کمتر از :max باشد"
+#~ msgstr "حداکثر نفرات باید کمتر از :max باشد"
 
 #~ msgid "Invalid date of examdate"
 #~ msgstr "تاریخ آزمون اشتباه است"
@@ -19939,7 +19939,7 @@ msgstr "کپی"
 #~ msgstr "لطفا استاد را انتخاب کنید"
 
 #~ msgid "Please set :maxperson"
-#~ msgstr "لطفا حد اکثر نفرات را وارد کنید"
+#~ msgstr "لطفا حداکثر نفرات را وارد کنید"
 
 #~ msgid "Please set times of this :lesson"
 #~ msgstr "لطفا ساعت درس را وارد کنید"
@@ -20095,16 +20095,16 @@ msgstr "کپی"
 #~ msgstr ":member جدید با موفقیت ثبت شد"
 
 #~ msgid "Maximum member in your academy was added!"
-#~ msgstr "مرکز آموزشی شما از حد اکثر ظرفیت ثبت اعضاء استفاده کرده است!"
+#~ msgstr "مرکز آموزشی شما از حداکثر ظرفیت ثبت اعضاء استفاده کرده است!"
 
 #~ msgid "Please contact to administrator"
 #~ msgstr "لطفا با مدیر سیستم تماس بگیرید"
 
 #~ msgid "Maximum expert in your academy was added!"
-#~ msgstr "مرکز آموزشی شما از حد اکثر ظرفیت ثبت کارشناس استفاده کرده است!"
+#~ msgstr "مرکز آموزشی شما از حداکثر ظرفیت ثبت کارشناس استفاده کرده است!"
 
 #~ msgid "Maximum teacher in your academy was added!"
-#~ msgstr "مرکز آموزشی شما از حد اکثر ظرفیت ثبت استاد استفاده کرده است!"
+#~ msgstr "مرکز آموزشی شما از حداکثر ظرفیت ثبت استاد استفاده کرده است!"
 
 #~ msgid "Create export file completed"
 #~ msgstr "ساخت فایل خروجی تکمیل شد"
