@@ -17549,7 +17549,7 @@ msgstr "کپی"
 #~ msgstr "مبلغ معتبری وارد کنید"
 
 #~ msgid "POS"
-#~ msgstr "دستگاه پوز"
+#~ msgstr "دستگاه کارتخوان"
 
 #~ msgid "Card to card"
 #~ msgstr "کارت به کارت"
@@ -17967,7 +17967,7 @@ msgstr "کپی"
 #~ msgstr "افزودن عنوان تراکنش جدید"
 
 #~ msgid "Pos"
-#~ msgstr "پوز"
+#~ msgstr "کارتخوان"
 
 #~ msgid "Have Track id"
 #~ msgstr "دارای کد رهگیری"
