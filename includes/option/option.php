@@ -85,4 +85,13 @@ self::$sms['kavenegar']['header']             = null;
 self::$sms['kavenegar']['footer']             = null;
 self::$sms['kavenegar']['one']                = true;
 
+
+
+self::$social['telegram']['status']     = true;
+// self::$social['telegram']['bot']        = '';
+// self::$social['telegram']['hookFolder'] = '';
+// self::$social['telegram']['token']      = '';
+// self::$social['telegram']['debug']      = true;
+// enable tunnel
+self::$social['telegram']['tunnel']     = true;
 ?>
