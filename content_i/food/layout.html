@@ -7,15 +7,88 @@
 
 {%endblock%}
 
-{% block iqari%}
-<label for="qari">{%trans "Qari"%}</label>
-<select name="qari" class="mB10 select ui dropdown search" id="qari">
-  <option value="" readonly>{%trans "Please select one item"%}</option>
-  {%for key, value in qariList%}
-    <option value="{{value.key}}" {%if value.key == dataRow.qari %} selected {%endif%}>{{value.value}}</option>
+
+{%block idesc%}
+<label for="desc">{%trans "Description"%}</label>
+<textarea class="txt mB10" id='desc' name="desc"  maxlength='500' rows="5">{{dataRow.desc}}</textarea>
+{%endblock%}
+
+
+{%block idate %}
+<label for="date">{%trans "Date"%}</label>
+<div class="input">
+  <input class="datepicker" type="text" name="date" id="date" placeholder='{{"now" | dt}}' value="{{dataRow.date}}" maxlength='15' data-format="YYYY/MM/DD" data-view="day">
+</div>
+{% endblock %}
+
+
+{%block itime %}
+<label for="time">{%trans "Time"%}</label>
+<div class="input clockpicker ltr">
+  <input type="text" name="time" id="time" value='{{dataRow.time}}' autocomplete="off">
+</div>
+{% endblock %}
+
+{%block ititle%}
+<label for='title'>{%trans "title"%}</label>
+<select name="title" class="select ui dropdown search addition" id="title">
+  <option value="">{%trans "Add or select"%}</option>
+  {%for key, value in listtitles%}
+    {%if value.title%}
+    <option value="{{value.title}}"{%if value.title == dataRow.title %} selected{%endif%}>{{value.title}}</option>
+    {%endif%}
   {%endfor%}
 </select>
-{% endblock %}
+{%endblock%}
+
+{%block isubtitle%}
+<label for='subtitle'>{%trans "subtitle"%}</label>
+<select name="subtitle" class="select ui dropdown search addition" id="subtitle">
+  <option value="">{%trans "Add or select"%}</option>
+  {%for key, value in listsubtitles%}
+    {%if value.subtitle%}
+    <option value="{{value.subtitle}}"{%if value.subtitle == dataRow.subtitle %} selected{%endif%}>{{value.subtitle}}</option>
+    {%endif%}
+  {%endfor%}
+</select>
+{%endblock%}
+
+
+{%block icat%}
+<label for='cat'>{%trans "cat"%}</label>
+<select name="cat" class="select ui dropdown search addition" id="cat">
+  <option value="">{%trans "Add or select"%}</option>
+  {%for key, value in listcats%}
+    {%if value.cat%}
+    <option value="{{value.cat}}"{%if value.cat == dataRow.cat %} selected{%endif%}>{{value.cat}}</option>
+    {%endif%}
+  {%endfor%}
+</select>
+{%endblock%}
+
+{%block icat2%}
+<label for='cat2'>{%trans "cat2"%}</label>
+<select name="cat2" class="select ui dropdown search addition" id="cat2">
+  <option value="">{%trans "Add or select"%}</option>
+  {%for key, value in listcat2s%}
+    {%if value.cat2%}
+    <option value="{{value.cat2}}"{%if value.cat2 == dataRow.cat2 %} selected{%endif%}>{{value.cat2}}</option>
+    {%endif%}
+  {%endfor%}
+</select>
+{%endblock%}
+
+{%block isize%}
+<label for='size'>{%trans "size"%}</label>
+<select name="size" class="select ui dropdown search addition" id="size">
+  <option value="">{%trans "Add or select"%}</option>
+  {%for key, value in listsizes%}
+    {%if value.size%}
+    <option value="{{value.size}}"{%if value.size == dataRow.size %} selected{%endif%}>{{value.size}}</option>
+    {%endif%}
+  {%endfor%}
+</select>
+{%endblock%}
 
 
 {% block iavatar %}
@@ -26,77 +99,6 @@
  </label>
 </div>
 {%endblock%}
-
-
-{% block ireadtype%}
-
-<label for="readtype">{%trans "Read Type"%}</label>
-<select name="readtype" class="mB10 select ui dropdown search" id="readtype">
-  <option value="" readonly>{%trans "Please select one item"%}</option>
-  {%for key, value in readtypeList%}
-    <option value="{{value.key}}" {%if value.key == dataRow.readtype %} selected {%endif%}>{{value.value}}</option>
-  {%endfor%}
-</select>
-{% endblock %}
-
-{% block ifiletype%}
-<label for="filetype">{%trans "filetype"%}</label>
-<div class="input">
-  <input type="text" name="filetype" id="filetype" value="{{dataRow.filetype}}" maxlength='200'>
-</div>
-{% endblock %}
-
-
-
-
-{% block itype %}
-
-<label for="type">{%trans "Type"%}</label>
-<select name="type" class="mB10 select ui dropdown search" id="type">
-  <option value="" readonly>{%trans "Please select one item"%}</option>
-  {%for key, value in typeList%}
-    <option value="{{value.key}}" {%if value.key == dataRow.type %} selected {%endif%}>{{value.value}}</option>
-  {%endfor%}
-</select>
-
-{% endblock %}
-
-
-{% block icountry%}
-<div class="mB10">
-  <label for='country'>{%trans "Country"%}</label>
-  <div class="ui fluid search selection dropdown">
-    <input type="hidden" name="country" value="{{dataRow.country}}">
-    <i class="dropdown icon"></i>
-    <div class="default text">{%trans "Choose country"%}</div>
-    <div class="menu">
-{%for key, value in countryList%}
-      <div class="item" data-value="{{key}}">
-        <i class="{{value.iso2 | lower }} flag"></i>{%set myCountry = value.name%} {%trans myCountry%}<small class="description">{{value.name | capitalize}}</small>
-      </div>
-{%endfor%}
-    </div>
-  </div>
-</div>
-{% endblock %}
-
-
-
-{% block iaddr%}
-<label for="addr">{%trans "addr"%}</label>
-<div class="input">
-  <input type="text" name="addr" id="addr" value="{{dataRow.addr}}" maxlength='1000'>
-</div>
-{% endblock %}
-
-
-
-{% block iquality%}
-<label for="quality">{%trans "quality"%}</label>
-<div class="input">
-  <input type="number" name="quality" id="quality" value="{{dataRow.quality}}" maxlength='200'>
-</div>
-{% endblock %}
 
 
 {%block iadd%}

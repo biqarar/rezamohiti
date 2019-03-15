@@ -6,14 +6,15 @@ class model
 	public static function post()
 	{
 		$post             = [];
-		$post['qari']     = \dash\request::post('qari');
+		$post['desc']     = \dash\request::post('desc');
+		$post['date']     = \dash\request::post('date');
+		$post['time']     = \dash\request::post('time');
+		$post['title']    = \dash\request::post('title');
+		$post['subtitle'] = \dash\request::post('subtitle');
+		$post['cat']      = \dash\request::post('cat');
+		$post['cat2']     = \dash\request::post('cat2');
+		$post['size']     = \dash\request::post('size');
 		$post['avatar']   = \dash\request::post('avatar');
-		$post['type']     = \dash\request::post('type');
-		$post['readtype'] = \dash\request::post('readtype');
-		$post['filetype'] = \dash\request::post('filetype');
-		$post['country']  = \dash\request::post('country');
-		$post['quality']  = \dash\request::post('quality');
-		$post['addr']     = \dash\request::post('addr');
 
 		\lib\app\food::add($post);
 		\dash\redirect::to(\dash\url::this());

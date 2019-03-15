@@ -7,9 +7,6 @@ class view
 	{
 		$countryList = \dash\utility\location\countres::$data;
 		\dash\data::countryList($countryList);
-		\dash\data::qariList(\lib\app\food::qari_list());
-		\dash\data::typeList(\lib\app\food::type_list());
-		\dash\data::readtypeList(\lib\app\food::readtype_list());
 
 
 	}

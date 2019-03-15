@@ -17,49 +17,6 @@ class food
 		'quality',
 	];
 
-	public static function qari_list()
-	{
-		$list = [];
-		$list[] = [ 'key' => 'AbdulBaset AbdulSamad', 			'value' => T_('AbdulBaset AbdulSamad'),];
-		$list[] = [ 'key' => 'Mishary Rashid Alafasy', 			'value' => T_('Mishary Rashid Alafasy'), ];
-		$list[] = [ 'key' => 'Mahmoud Khalil Al-Husary', 		'value' => T_('Mahmoud Khalil Al-Husary'),];
-		$list[] = [ 'key' => 'Mohamed Siddiq al-Minshawi', 		'value' => T_('Mohamed Siddiq al-Minshawi'),];
-		$list[] = [ 'key' => 'Hani ar-Rifai', 					'value' => T_('Hani ar-Rifai'),];
-		$list[] = [ 'key' => 'Abu Bakr al-Shatri', 				'value' => T_('Abu Bakr al-Shatri'),];
-		$list[] = [ 'key' => 'Sa`ud ash-Shuraym', 				'value' => T_('Sa`ud ash-Shuraym'),];
-		$list[] = [ 'key' => 'Abdur-Rahman as-Sudais', 			'value' => T_('Abdur-Rahman as-Sudais'),];
-		$list[] = [ 'key' => 'Rasim Balayev', 					'value' => T_('Rasim Balayev'),];
-		$list[] = [ 'key' => 'Ibrahim Walk', 					'value' => T_('Ibrahim Walk'),];
-		$list[] = [ 'key' => 'Shahriyar parhizgar',				'value' => T_('Shahriyar parhizgar'), ];
-		$list[] = [ 'key' => 'Karim mansouri', 					'value' => T_('Karim mansouri'),];
-		$list[] = [ 'key' => 'Mohsen Qaraati', 					'value' => T_('Mohsen Qaraati'),];
-		$list[] = [ 'key' => 'Mohammad mahdi fouladvand', 		'value' => T_('Mohammad mahdi fouladvand'),];
-		$list[] = [ 'key' => 'Naser makarem shirazi', 			'value' => T_('Naser makarem shirazi'),];
-		return $list;
-	}
-
-
-	public static function type_list()
-	{
-		$list   = [];
-		$list[] = [ 'key' => 'Muallim', 	'value' => T_('Muallim'),];
-		$list[] = [ 'key' => 'Mujawwad', 	'value' => T_('Mujawwad'), ];
-		$list[] = [ 'key' => 'Murattal', 	'value' => T_('Murattal'),];
-		$list[] = [ 'key' => 'Commentary', 	'value' => T_('Commentary'),];
-		$list[] = [ 'key' => 'Translate', 	'value' => T_('Translate'),];
-		return $list;
-	}
-
-
-	public static function readtype_list()
-	{
-		$list   = [];
-		$list[] = [ 'key' => 'Page screen', 'value' => T_('Page screen'),];
-		$list[] = [ 'key' => 'Aya', 		'value' => T_('Aya'), ];
-		$list[] = [ 'key' => 'Sura', 		'value' => T_('Sura'),];
-		$list[] = [ 'key' => 'Juz', 		'value' => T_('Juz'),];
-		return $list;
-	}
 
 	public static function get($_id)
 	{
@@ -87,80 +44,41 @@ class food
 	public static function check($_id = null)
 	{
 
-		$qari = \dash\app::request('qari');
-		if($qari && mb_strlen($qari) > 200)
+		// $datetime = \dash\app::request('datetime');
+		$title    = \dash\app::request('title');
+		$subtitle = \dash\app::request('subtitle');
+		$cat      = \dash\app::request('cat');
+		$cat2     = \dash\app::request('cat2');
+		$size     = \dash\app::request('size');
+		$desc     = \dash\app::request('desc');
+		$image    = \dash\app::request('image');
+		$avatar   = \dash\app::request('avatar');
+		$status   = \dash\app::request('status');
+
+		$date     = \dash\app::request('date');
+		if(!$date)
 		{
-			\dash\notif::error(T_("Please set qari less than 200 character"), 'qari');
-			return false;
+			$date = date("Y-m-d");
 		}
 
-		$avatar = \dash\app::request('avatar');
-		if($avatar && mb_strlen($avatar) > 200)
-		{
-			\dash\notif::error(T_("Please set avatar less than 200 character"), 'avatar');
-			return false;
-		}
+		$time     = \dash\app::request('time');
 
-		$type = \dash\app::request('type');
-		if($type && mb_strlen($type) > 200)
+		if(!$time)
 		{
-			\dash\notif::error(T_("Please set type less than 200 character"), 'type');
-			return false;
-		}
-
-		$readtype = \dash\app::request('readtype');
-		if($readtype && mb_strlen($readtype) > 200)
-		{
-			\dash\notif::error(T_("Please set readtype less than 200 character"), 'readtype');
-			return false;
-		}
-
-		$filetype = \dash\app::request('filetype');
-		if($filetype && mb_strlen($filetype) > 200)
-		{
-			\dash\notif::error(T_("Please set filetype less than 200 character"), 'filetype');
-			return false;
-		}
-
-		$addr = \dash\app::request('addr');
-		if($addr && mb_strlen($addr) > 1000)
-		{
-			\dash\notif::error(T_("Please set addr less than 200 character"), 'addr');
-			return false;
-		}
-
-		$country = \dash\app::request('country');
-		if($country && mb_strlen($country) > 200)
-		{
-			\dash\notif::error(T_("Please set country less than 200 character"), 'country');
-			return false;
-		}
-
-		$quality = \dash\app::request('quality');
-		if($quality && mb_strlen($quality) > 200)
-		{
-			\dash\notif::error(T_("Please set quality less than 200 character"), 'quality');
-			return false;
-		}
-
-
-		$status = \dash\app::request('status');
-		if($status && !in_array($status, ['enable', 'disable', 'awaiting', 'deleted', 'review', 'filter']))
-		{
-			\dash\notif::error(T_("Invalid status"), 'status');
-			return false;
+			$time = date("H:i:s");
 		}
 
 		$args             = [];
-		$args['qari']     = $qari;
 		$args['avatar']   = $avatar;
-		$args['type']     = $type;
-		$args['readtype'] = $readtype;
-		$args['filetype'] = $filetype;
-		$args['country']  = $country;
-		$args['quality']  = $quality;
+		$args['datetime'] = $date .' '. $time;
+		$args['title']    = $title;
+		$args['subtitle'] = $subtitle;
+		$args['cat']      = $cat;
+		$args['cat2']     = $cat2;
+		$args['size']     = $size;
+		$args['desc']     = $desc;
+		$args['image']    = $image;
 		$args['status']   = $status;
-		$args['addr']     = $addr;
 
 		return $args;
 
@@ -264,6 +182,7 @@ class food
 		{
 			$args['status'] = 'enable';
 		}
+		$args['user_id'] = \dash\user::id();
 
 		$food = \lib\db\food::insert($args);
 
@@ -363,15 +282,17 @@ class food
 			return false;
 		}
 
-		if(!\dash\app::isset_request('qari')) unset($args['qari']);
+
 		if(!\dash\app::isset_request('avatar')) unset($args['avatar']);
-		if(!\dash\app::isset_request('type')) unset($args['type']);
-		if(!\dash\app::isset_request('readtype')) unset($args['readtype']);
-		if(!\dash\app::isset_request('filetype')) unset($args['filetype']);
-		if(!\dash\app::isset_request('country')) unset($args['country']);
-		if(!\dash\app::isset_request('quality')) unset($args['quality']);
+		if(!\dash\app::isset_request('datetime')) unset($args['datetime']);
+		if(!\dash\app::isset_request('title')) unset($args['title']);
+		if(!\dash\app::isset_request('subtitle')) unset($args['subtitle']);
+		if(!\dash\app::isset_request('cat')) unset($args['cat']);
+		if(!\dash\app::isset_request('cat2')) unset($args['cat2']);
+		if(!\dash\app::isset_request('size')) unset($args['size']);
+		if(!\dash\app::isset_request('desc')) unset($args['desc']);
+		if(!\dash\app::isset_request('image')) unset($args['image']);
 		if(!\dash\app::isset_request('status')) unset($args['status']);
-		if(!\dash\app::isset_request('addr')) unset($args['addr']);
 
 
 		if(!empty($args))

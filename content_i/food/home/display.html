@@ -74,29 +74,36 @@
   <table class="tbl1 v1 cbox fs12">
     <thead>
       <tr>
-        <th class="collapsing">&nbsp;</th>
-        <th data-sort="{{sortLink.qari.order}}"><a href="{{sortLink.qari.link}}">{%trans "Qari"%}</a></th>
-        <th data-sort="{{sortLink.type.order}}"><a href="{{sortLink.type.link}}">{%trans "Type"%}</a></th>
-        <th data-sort="{{sortLink.readtype.order}}"><a href="{{sortLink.readtype.link}}">{%trans "Read type"%}</a></th>
-        <th data-sort="{{sortLink.filetype.order}}"><a href="{{sortLink.filetype.link}}">{%trans "file type"%}</a></th>
-        <th data-sort="{{sortLink.country.order}}"><a href="{{sortLink.country.link}}">{%trans "Country"%}</a></th>
-        <th data-sort="{{sortLink.quality.order}}"><a href="{{sortLink.quality.link}}">{%trans "Quality"%}</a></th>
-        <th data-sort="{{sortLink.addr.order}}"><a href="{{sortLink.addr.link}}">{%trans "Addr"%}</a></th>
-        <th data-sort="{{sortLink.status.order}}"><a href='{{sortLink.status.link}}'>{%trans "Status"%}</a></th>
+        <th></th>
+        <th data-sort="{{sortLink.title.order}}"><a href="{{sortLink.title.link}}">{%trans "title"%}</a></th>
+        <th data-sort="{{sortLink.subtitle.order}}"><a href="{{sortLink.subtitle.link}}">{%trans "subtitle"%}</a></th>
+        <th data-sort="{{sortLink.cat.order}}"><a href="{{sortLink.cat.link}}">{%trans "cat"%}</a></th>
+        <th data-sort="{{sortLink.cat2.order}}"><a href="{{sortLink.cat2.link}}">{%trans "cat2"%}</a></th>
+        <th data-sort="{{sortLink.size.order}}"><a href="{{sortLink.size.link}}">{%trans "size"%}</a></th>
+        <th data-sort="{{sortLink.desc.order}}"><a href="{{sortLink.desc.link}}">{%trans "desc"%}</a></th>
+        <th data-sort="{{sortLink.image.order}}"><a href="{{sortLink.image.link}}">{%trans "image"%}</a></th>
+        <th data-sort="{{sortLink.avatar.order}}"><a href="{{sortLink.avatar.link}}">{%trans "avatar"%}</a></th>
+        <th data-sort="{{sortLink.status.order}}"><a href="{{sortLink.status.link}}">{%trans "status"%}</a></th>
+        <th data-sort="{{sortLink.datetime.order}}"><a href="{{sortLink.datetime.link}}">{%trans "datetime"%}</a></th>
       </tr>
     </thead>
 
     <tbody>
       {%for key, value in dataTable%}
       <tr>
-        <td><img src="{{value.avatar}}" class="avatar"></td>
         <td><a href="{{url.this}}/edit?id={{value.id}}"> <i class="sf-edit"></i> {%set myqari = value.qari%}{%trans myqari%}</a></td>
-        <td>{%set mytype = value.type%}{%trans mytype%}</td>
-        <td>{%set myreadtype = value.readtype%}{%trans myreadtype%}</td>
-        <td>{{value.filetype}}</td>
-        <td>{{value.location_string}}</td>
-        <td>{{value.quality | fitNumber}}</td>
-        <td>{{value.addr}}</td>
+        <td><img src="{{value.avatar}}" class="avatar"></td>
+
+        <td>{{value.title}}</td>
+        <td>{{value.subtitle}}</td>
+        <td>{{value.cat}}</td>
+        <td>{{value.cat2}}</td>
+        <td>{{value.size}}</td>
+        <td>{{value.desc}}</td>
+        <td>{{value.image}}</td>
+
+        <td>{{value.datetime | dt}}</td>
+
         <td>{%set mystatus = value.status%}{%trans mystatus%}</td>
 
       </tr>
