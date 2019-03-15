@@ -1,0 +1,23 @@
+{%extends display.dash%}
+
+
+
+{%block pageContent%}
+  <div class="f">
+
+    <div class="c12 s12">{{block('Baudiobank')}}</div>
+
+
+  </div>
+{%endblock%}
+
+
+
+{%block Baudiobank%}
+<a class="dcard x2" href='{{url.here}}/audiobank'>
+ <div class="statistic red">
+  <div class="value mB10"><i class="sf-music"></i></div>
+  <div class="label">{%trans "Audio bank"%}</div>
+ </div>
+</a>
+{%endblock%}
