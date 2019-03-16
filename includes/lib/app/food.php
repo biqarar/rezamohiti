@@ -134,6 +134,15 @@ class food
 			}
 		}
 
+		if(!$image && $title)
+		{
+			$get = \lib\db\food::get(['title' => $title, 'user_id' => \dash\user::id(), 'limit' => 1]);
+			if(isset($get['image']))
+			{
+				$image = $get['image'];
+			}
+		}
+
 		$args             = [];
 		$args['image']   = $image;
 		$args['datetime'] = $date .' '. $time;

@@ -14,7 +14,14 @@ class model
 		$post['cat']      = \dash\request::post('cat');
 		$post['cat2']     = \dash\request::post('cat2');
 		$post['size']     = \dash\request::post('size');
-		$post['image']   = \dash\request::post('image');
+
+
+		$file = \dash\app\file::upload_quick('image');
+
+		if($file)
+		{
+			$post['image'] = $file;
+		}
 
 		\lib\app\food::add($post);
 		\dash\redirect::to(\dash\url::this());
