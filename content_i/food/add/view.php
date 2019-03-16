@@ -11,6 +11,14 @@ class view
 		$myList = \lib\app\food::myList();
 		\dash\data::myList($myList);
 
+		\dash\data::page_title(T_("Add"));
+		\dash\data::page_desc(' ');
+		\dash\data::page_pictogram('magic');
+
+		\dash\data::badge_link(\dash\url::this());
+		\dash\data::badge_text(T_('Back'));
+
+
 	}
 }
 ?>

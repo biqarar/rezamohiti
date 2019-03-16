@@ -33,6 +33,7 @@
 <label for='title'>{%trans "title"%}</label>
 <select name="title" class="select ui dropdown search addition" id="title">
   <option value="">{%trans "Add or select"%}</option>
+  <option value="0">{%trans "Non"%}</option>
   {%for key, value in myList.title%}
     <option value="{{value}}" {%if value == dataRow.title %} selected{%endif%}>{{value}}</option>
   {%endfor%}
@@ -43,6 +44,7 @@
 <label for='subtitle'>{%trans "subtitle"%}</label>
 <select name="subtitle" class="select ui dropdown search addition" id="subtitle">
   <option value="">{%trans "Add or select"%}</option>
+  <option value="0">{%trans "Non"%}</option>
   {%for key, value in myList.subtitle%}
     <option value="{{value}}"{%if value == dataRow.subtitle %} selected{%endif%}>{{value}}</option>
   {%endfor%}
@@ -54,6 +56,7 @@
 <label for='cat'>{%trans "cat"%}</label>
 <select name="cat" class="select ui dropdown search addition" id="cat">
   <option value="">{%trans "Add or select"%}</option>
+  <option value="0">{%trans "Non"%}</option>
   {%for key, value in myList.cat%}
 
     <option value="{{value}}" {%if value == dataRow.cat %} selected{%endif%}>{{value}}</option>
@@ -66,6 +69,7 @@
 <label for='cat2'>{%trans "cat2"%}</label>
 <select name="cat2" class="select ui dropdown search addition" id="cat2">
   <option value="">{%trans "Add or select"%}</option>
+  <option value="0">{%trans "Non"%}</option>
   {%for key, value in myList.cat2%}
 
     <option value="{{value}}" {%if value == dataRow.cat2 %} selected{%endif%}>{{value}}</option>
@@ -78,6 +82,7 @@
 <label for='size'>{%trans "size"%}</label>
 <select name="size" class="select ui dropdown search addition" id="size">
   <option value="">{%trans "Add or select"%}</option>
+  <option value="0">{%trans "Non"%}</option>
   {%for key, value in myList.size%}
 
     <option value="{{value}}" {%if value == dataRow.size %} selected{%endif%}>{{value}}</option>

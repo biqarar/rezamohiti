@@ -51,6 +51,12 @@ class food
 			return false;
 		}
 
+		if(!$title)
+		{
+			\dash\notif::error(T_("Ops!"), 'request');
+			return false;
+		}
+
 		$subtitle = \dash\app::request('subtitle');
 		if($subtitle && mb_strlen($subtitle) > 100)
 		{
@@ -146,13 +152,13 @@ class food
 		$args             = [];
 		$args['image']   = $image;
 		$args['datetime'] = $date .' '. $time;
-		$args['title']    = $title;
-		$args['subtitle'] = $subtitle;
-		$args['cat']      = $cat;
-		$args['cat2']     = $cat2;
-		$args['size']     = $size;
-		$args['desc']     = $desc;
-		$args['image']    = $image;
+		$args['title']    = $title ? $title : null;
+		$args['subtitle'] = $subtitle ? $subtitle : null;
+		$args['cat']      = $cat ? $cat : null;
+		$args['cat2']     = $cat2 ? $cat2 : null;
+		$args['size']     = $size ? $size : null;
+		$args['desc']     = $desc ? $desc : null;
+
 		// $args['status']   = $status;
 
 		return $args;
