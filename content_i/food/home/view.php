@@ -40,37 +40,37 @@ class view
 
 		if(\dash\request::get('status'))
 		{
-			$args['status'] = \dash\request::get('status');
+			$args['food.status'] = \dash\request::get('status');
 		}
 
 		if(\dash\request::get('title'))
 		{
-			$args['title'] = \dash\request::get('title');
+			$args['food.title'] = \dash\request::get('title');
 		}
 
 		if(\dash\request::get('subtitle'))
 		{
-			$args['subtitle'] = \dash\request::get('subtitle');
+			$args['food.subtitle'] = \dash\request::get('subtitle');
 		}
 
 		if(\dash\request::get('cat'))
 		{
-			$args['cat'] = \dash\request::get('cat');
+			$args['food.cat'] = \dash\request::get('cat');
 		}
 
 		if(\dash\request::get('cat2'))
 		{
-			$args['cat2'] = \dash\request::get('cat2');
+			$args['food.cat2'] = \dash\request::get('cat2');
 		}
 
 		if(\dash\request::get('user'))
 		{
-			$args['user_id'] = \dash\request::get('user');
+			$args['food.user_id'] = \dash\request::get('user');
 		}
 
 		if(\dash\request::get('size'))
 		{
-			$args['size'] = \dash\request::get('size');
+			$args['food.size'] = \dash\request::get('size');
 		}
 
 		if(\dash\request::get('date'))
@@ -104,6 +104,11 @@ class view
 			$check_empty_datatable['date'] = \dash\datetime::fit(\dash\request::get('date'), true, 'date' );
 		}
 		unset($check_empty_datatable['1.1']);
+
+		if(!empty($check_empty_datatable))
+		{
+			$check_empty_datatable = [':' => ')'];
+		}
 
 		// set dataFilter
 		$dataFilter = \dash\app\sort::createFilterMsg($search_string, $check_empty_datatable);
