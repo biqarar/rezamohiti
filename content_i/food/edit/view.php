@@ -20,6 +20,14 @@ class view
 			\dash\header::status(403, T_("Invalid audio id"));
 		}
 
+		if(isset($result['user_id']))
+		{
+			if(intval($result['user_id']) !== intval(\dash\user::id()))
+			{
+				\dash\header::status(403);
+			}
+		}
+
 		\dash\data::dataRow($result);
 
 		$countryList = \dash\utility\location\countres::$data;
