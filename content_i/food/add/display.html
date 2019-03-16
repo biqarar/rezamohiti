@@ -6,16 +6,20 @@
   <div class="c4 s12">
     <div class="cbox">
 
-		{{block('iavatar')}}
+		{{block('iimage')}}
+		{{block('ititle')}}
+		{{block('isize')}}
+        {{block("iadd")}}
+        <h6 class="btn block mT20" data-kerkere=".otherData">{%trans "Other"%}</h6>
+        <div class="otherData" data-kerkere-content='hide'>
+
 		{{block('idate')}}
 		{{block('itime')}}
-		{{block('ititle')}}
 		{{block('isubtitle')}}
 		{{block('icat')}}
 		{{block('icat2')}}
-		{{block('isize')}}
 		{{block('idesc')}}
-        {{block("iadd")}}
+        </div>
     </div>
   </div>
 </div>

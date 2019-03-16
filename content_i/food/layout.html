@@ -91,11 +91,11 @@
 {%endblock%}
 
 
-{% block iavatar %}
+{% block iimage %}
 <div class="input preview">
- <input type="file" accept="image/gif, image/jpeg, image/png" name="avatar" id="avatar1" data-preview data-max="500">
- <label for="avatar1" title='{%trans "Avatar"%}'>
-    {%if dataRow.avatar%}<img src="{{dataRow.avatar}}">{%endif%}
+ <input type="file" accept="image/gif, image/jpeg, image/png" name="image" id="image1" data-preview data-max="500">
+ <label for="image1" title='{%trans "Avatar"%}'>
+    {%if dataRow.image%}<img src="{{dataRow.image}}">{%endif%}
  </label>
 </div>
 {%endblock%}

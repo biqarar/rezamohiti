@@ -18,11 +18,11 @@ class model
 		$post['size']     = \dash\request::post('size');
 
 
-		$file = \dash\app\file::upload_quick('avatar');
+		$file = \dash\app\file::upload_quick('image');
 
 		if($file)
 		{
-			$post['avatar'] = $file;
+			$post['image'] = $file;
 		}
 
 		\lib\app\food::edit($post, \dash\request::get('id'));

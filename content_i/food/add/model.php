@@ -14,7 +14,7 @@ class model
 		$post['cat']      = \dash\request::post('cat');
 		$post['cat2']     = \dash\request::post('cat2');
 		$post['size']     = \dash\request::post('size');
-		$post['avatar']   = \dash\request::post('avatar');
+		$post['image']   = \dash\request::post('image');
 
 		\lib\app\food::add($post);
 		\dash\redirect::to(\dash\url::this());
