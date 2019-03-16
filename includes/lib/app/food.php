@@ -142,9 +142,10 @@ class food
 
 		if(!$image && $title)
 		{
-			$get = \lib\db\food::get(['title' => $title, 'user_id' => \dash\user::id(), 'limit' => 1]);
+			$get = \lib\db\food::get(['title' => $title, 'image' => [' IS NOT ', ' NULL'], 'user_id' => \dash\user::id(), 'limit' => 1]);
 			if(isset($get['image']))
 			{
+				\dash\temp::set('imageLoaded', true);
 				$image = $get['image'];
 			}
 		}
@@ -391,8 +392,13 @@ class food
 		if(!\dash\app::isset_request('cat2')) unset($args['cat2']);
 		if(!\dash\app::isset_request('size')) unset($args['size']);
 		if(!\dash\app::isset_request('desc')) unset($args['desc']);
-		if(!\dash\app::isset_request('image')) unset($args['image']);
+
+		if(!\dash\temp::get('imageLoaded'))
+		{
+			if(!\dash\app::isset_request('image')) unset($args['image']);
+		}
 		// if(!\dash\app::isset_request('status')) unset($args['status']);
+
 
 
 		if(!empty($args))
