@@ -4,28 +4,6 @@
 
 {%block pageContent%}
 
-<div class="f hide">
-
-  <div class="c s6">
-    <a class="dcard {%if url.module == 'audio' %}active{%endif%}" href='{{url.here}}/audio'>
-     <div class="statistic">
-      <div class="value"><i class="sf-list"></i></div>
-      <div class="label">{%trans "List"%}</div>
-     </div>
-    </a>
-   </div>
-
-  <div class="c s6">
-    <a class="dcard {%if url.module == 'entry' %}active{%endif%}" href='{{url.here}}/entry'>
-     <div class="statistic">
-      <div class="value"><i class="sf-broadcast"></i></div>
-      <div class="label">{%trans "Check audio online"%}</div>
-     </div>
-    </a>
-   </div>
-
-</div>
-
 {%if dataTable%}
  {%if dataFilter%}
 
@@ -74,38 +52,33 @@
   <table class="tbl1 v1 cbox fs12">
     <thead>
       <tr>
-        <th></th>
-        <th data-sort="{{sortLink.title.order}}"><a href="{{sortLink.title.link}}">{%trans "title"%}</a></th>
-        <th data-sort="{{sortLink.subtitle.order}}"><a href="{{sortLink.subtitle.link}}">{%trans "subtitle"%}</a></th>
-        <th data-sort="{{sortLink.cat.order}}"><a href="{{sortLink.cat.link}}">{%trans "cat"%}</a></th>
-        <th data-sort="{{sortLink.cat2.order}}"><a href="{{sortLink.cat2.link}}">{%trans "cat2"%}</a></th>
-        <th data-sort="{{sortLink.size.order}}"><a href="{{sortLink.size.link}}">{%trans "size"%}</a></th>
-        <th data-sort="{{sortLink.desc.order}}"><a href="{{sortLink.desc.link}}">{%trans "desc"%}</a></th>
-        <th data-sort="{{sortLink.image.order}}"><a href="{{sortLink.image.link}}">{%trans "image"%}</a></th>
-        <th data-sort="{{sortLink.avatar.order}}"><a href="{{sortLink.avatar.link}}">{%trans "avatar"%}</a></th>
-        <th data-sort="{{sortLink.status.order}}"><a href="{{sortLink.status.link}}">{%trans "status"%}</a></th>
-        <th data-sort="{{sortLink.datetime.order}}"><a href="{{sortLink.datetime.link}}">{%trans "datetime"%}</a></th>
+        <th class="">#</th>
+        <th class="s0" data-sort="{{sortLink.image.order}}"><a href="{{sortLink.image.link}}">{%trans "image"%}</a></th>
+        <th class="" data-sort="{{sortLink.title.order}}"><a href="{{sortLink.title.link}}">{%trans "title"%}</a></th>
+        <th class="s0" data-sort="{{sortLink.subtitle.order}}"><a href="{{sortLink.subtitle.link}}">{%trans "subtitle"%}</a></th>
+        <th class="" data-sort="{{sortLink.cat.order}}"><a href="{{sortLink.cat.link}}">{%trans "cat"%}</a></th>
+        <th class="s0" data-sort="{{sortLink.cat2.order}}"><a href="{{sortLink.cat2.link}}">{%trans "cat2"%}</a></th>
+        <th class="" data-sort="{{sortLink.size.order}}"><a href="{{sortLink.size.link}}">{%trans "size"%}</a></th>
+        <th class="s0" data-sort="{{sortLink.desc.order}}"><a href="{{sortLink.desc.link}}">{%trans "desc"%}</a></th>
+        <th class="" data-sort="{{sortLink.datetime.order}}"><a href="{{sortLink.datetime.link}}">{%trans "datetime"%}</a></th>
+
+
+
       </tr>
     </thead>
 
     <tbody>
       {%for key, value in dataTable%}
       <tr>
-        <td><a href="{{url.this}}/edit?id={{value.id}}"> <i class="sf-edit"></i> {%set myqari = value.qari%}{%trans myqari%}</a></td>
-        <td><img src="{{value.avatar}}" class="avatar"></td>
-
-        <td>{{value.title}}</td>
-        <td>{{value.subtitle}}</td>
-        <td>{{value.cat}}</td>
-        <td>{{value.cat2}}</td>
-        <td>{{value.size}}</td>
-        <td>{{value.desc}}</td>
-        <td>{{value.image}}</td>
-
-        <td>{{value.datetime | dt}}</td>
-
-        <td>{%set mystatus = value.status%}{%trans mystatus%}</td>
-
+        <td class="" ><a href="{{url.this}}/edit?id={{value.id}}"> <i class="sf-edit"></i> {{value.id | fitNumber}}</a></td>
+        <td class="s0" >{%if value.image%}<img src="{{value.image}}" class="avatar">{%endif%}</td>
+        <td class="" ><a href="{{url.this}}?title={{value.title}}">{{value.title}}</a></td>
+        <td class="s0" ><a href="{{url.this}}?subtitle={{value.subtitle}}">{{value.subtitle}}</a></td>
+        <td class="" ><a href="{{url.this}}?cat={{value.cat}}">{{value.cat}}</a></td>
+        <td class="s0" ><a href="{{url.this}}?cat2={{value.cat2}}">{{value.cat2}}</a></td>
+        <td class="s0" ><a href="{{url.this}}?size={{value.size}}">{{value.size}}</a></td>
+        <td class="s0" >{{value.desc}}</td>
+        <td class=""  title="{{value.datetime | dt}}">{{value.datetime | dt('human','year')}} <br> <a href="{{url.this}}?date={{value.datetime}}">{{value.datetime | dt(true)}}</a></td>
       </tr>
       {%endfor%}
     </tbody>

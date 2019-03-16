@@ -59,9 +59,11 @@ class food
 		[
 			'search_field' =>
 			"
-				food.qari LIKE ('%__string__%') OR
-				food.type LIKE ('%__string__%') OR
-				food.readtype LIKE ('%__string__%')
+				food.title LIKE ('%__string__%') OR
+				food.subtitle LIKE ('%__string__%') OR
+				food.cat LIKE ('%__string__%') OR
+				food.cat2 LIKE ('%__string__%') OR
+				food.size LIKE ('%__string__%')
 			",
 		];
 
