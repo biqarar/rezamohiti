@@ -69,15 +69,15 @@
       {%for key, value in dataTable%}
       <tr>
         <td class="" ><a href="{{url.this}}/edit?id={{value.id}}"> <i class="sf-edit"></i> {{value.id | fitNumber}}</a></td>
-        <td class="" >{%if value.avatar%}<img src="{{value.avatar}}" class="avatar">{%endif%} <b><a href="{{url.this}}?user={{value.user_id}}">{{value.displayname}}</a></b></td>
-        <td class="s0" >{%if value.image%}<img src="{{value.image}}" class="avatar">{%endif%}</td>
+        <td class="" >{%if value.avatar%}<img alt="Avatart" src="{{value.avatar}}" class="avatar">{%endif%} <b><a href="{{url.this}}?user={{value.user_id}}">{{value.displayname}}</a></b></td>
+        <td class="s0" >{%if value.image%}<a href="{{value.image}}" data-direct target="_blank"><img alt="Food" src="{{value.image}}" class="avatar"></a>{%endif%}</td>
         <td class="" ><a href="{{url.this}}?title={{value.title}}">{{value.title}}</a></td>
         <td class="hide s0" ><a href="{{url.this}}?subtitle={{value.subtitle}}">{{value.subtitle}}</a></td>
         <td class="hide " ><a href="{{url.this}}?cat={{value.cat}}">{{value.cat}}</a></td>
         <td class="hide s0" ><a href="{{url.this}}?cat2={{value.cat2}}">{{value.cat2}}</a></td>
         <td class="" ><a href="{{url.this}}?size={{value.size}}">{{value.size}}</a></td>
         <td class="s0" >{{value.desc}}</td>
-        <td class=""  title="{{value.datetime | dt}}">{{value.datetime | dt('human','year')}} <br> <a href="{{url.this}}?date={{value.datetime}}">{{value.datetime | dt(true)}}</a></td>
+        <td class=""  title="{{value.datetime | dt}}">{{value.datetime | dt('human','year')}} <br> <a href="{{url.this}}?date={{value.datetime | date('Y-m-d')}}">{{value.datetime | dt(true)}}</a></td>
       </tr>
       {%endfor%}
     </tbody>
