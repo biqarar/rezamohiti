@@ -17,6 +17,24 @@ class food
 		return \dash\db\config::public_multi_insert('food', ...func_get_args());
 	}
 
+	public static function myList($_user_id)
+	{
+		$query =
+		"
+			SELECT
+				GROUP_CONCAT(DISTINCT food.title) AS `title`,
+				GROUP_CONCAT(DISTINCT food.subtitle) AS `subtitle`,
+				GROUP_CONCAT(DISTINCT food.cat) AS `cat`,
+				GROUP_CONCAT(DISTINCT food.cat2) AS `cat2`,
+				GROUP_CONCAT(DISTINCT food.size) AS `size`
+			FROM
+				food
+			WHERE food.user_id = $_user_id
+		";
+		$result = \dash\db::get($query, null , true);
+		return $result;
+	}
+
 
 	public static function update()
 	{

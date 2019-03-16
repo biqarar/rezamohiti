@@ -8,6 +8,8 @@ class view
 		$countryList = \dash\utility\location\countres::$data;
 		\dash\data::countryList($countryList);
 
+		$myList = \lib\app\food::myList();
+		\dash\data::myList($myList);
 
 	}
 }

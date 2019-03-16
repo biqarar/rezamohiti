@@ -44,21 +44,78 @@ class food
 	public static function check($_id = null)
 	{
 
-		// $datetime = \dash\app::request('datetime');
 		$title    = \dash\app::request('title');
+		if($title && mb_strlen($title) > 100)
+		{
+			\dash\notif::error(T_("Ops!"), 'request');
+			return false;
+		}
+
 		$subtitle = \dash\app::request('subtitle');
+		if($subtitle && mb_strlen($subtitle) > 100)
+		{
+			\dash\notif::error(T_("Ops!"), 'request');
+			return false;
+		}
+
 		$cat      = \dash\app::request('cat');
+		if($cat && mb_strlen($cat) > 100)
+		{
+			\dash\notif::error(T_("Ops!"), 'request');
+			return false;
+		}
+
 		$cat2     = \dash\app::request('cat2');
+		if($cat2 && mb_strlen($cat2) > 100)
+		{
+			\dash\notif::error(T_("Ops!"), 'request');
+			return false;
+		}
+
 		$size     = \dash\app::request('size');
+		if($size && mb_strlen($size) > 100)
+		{
+			\dash\notif::error(T_("Ops!"), 'request');
+			return false;
+		}
+
 		$desc     = \dash\app::request('desc');
+		if($desc && mb_strlen($desc) > 1000)
+		{
+			\dash\notif::error(T_("Ops!"), 'request');
+			return false;
+		}
+
 		$image    = \dash\app::request('image');
-		$avatar   = \dash\app::request('avatar');
+		if($image && mb_strlen($image) > 1000)
+		{
+			\dash\notif::error(T_("Ops!"), 'request');
+			return false;
+		}
+
 		$status   = \dash\app::request('status');
+		if($status && mb_strlen($status) > 100)
+		{
+			\dash\notif::error(T_("Ops!"), 'request');
+			return false;
+		}
+
 
 		$date     = \dash\app::request('date');
 		if(!$date)
 		{
 			$date = date("Y-m-d");
+		}
+		else
+		{
+			$date = \dash\date::db($date);
+			if($date === false)
+			{
+				\dash\notif::error(T_("Ops!"), 'date');
+				return false;
+			}
+			$date = \dash\date::force_gregorian($date);
+			$date = \dash\date::db($date);
 		}
 
 		$time     = \dash\app::request('time');
@@ -67,9 +124,18 @@ class food
 		{
 			$time = date("H:i:s");
 		}
+		else
+		{
+			$time = \dash\date::make_time($time);
+			if($time === false)
+			{
+				\dash\notif::error(T_("Ops!"), 'time');
+				return false;
+			}
+		}
 
 		$args             = [];
-		$args['avatar']   = $avatar;
+		$args['image']   = $image;
 		$args['datetime'] = $date .' '. $time;
 		$args['title']    = $title;
 		$args['subtitle'] = $subtitle;
@@ -78,10 +144,32 @@ class food
 		$args['size']     = $size;
 		$args['desc']     = $desc;
 		$args['image']    = $image;
-		$args['status']   = $status;
+		// $args['status']   = $status;
 
 		return $args;
 
+	}
+
+
+	public static function myList()
+	{
+		if(!\dash\user::id())
+		{
+			return null;
+		}
+
+		$get  = \lib\db\food::myList(\dash\user::id());
+		$list = [];
+
+		if(is_array($get))
+		{
+			foreach ($get as $key => $value)
+			{
+				$list[$key] = explode(',', $value);
+			}
+		}
+
+		return $list;
 	}
 
 
@@ -178,7 +266,7 @@ class food
 
 		$return  = [];
 
-		if(!$args['status'])
+		if(!isset($args['status']))
 		{
 			$args['status'] = 'enable';
 		}
@@ -282,9 +370,9 @@ class food
 			return false;
 		}
 
-
 		if(!\dash\app::isset_request('avatar')) unset($args['avatar']);
-		if(!\dash\app::isset_request('datetime')) unset($args['datetime']);
+		if(!\dash\app::isset_request('date')) unset($args['date']);
+		if(!\dash\app::isset_request('time')) unset($args['time']);
 		if(!\dash\app::isset_request('title')) unset($args['title']);
 		if(!\dash\app::isset_request('subtitle')) unset($args['subtitle']);
 		if(!\dash\app::isset_request('cat')) unset($args['cat']);
@@ -292,7 +380,7 @@ class food
 		if(!\dash\app::isset_request('size')) unset($args['size']);
 		if(!\dash\app::isset_request('desc')) unset($args['desc']);
 		if(!\dash\app::isset_request('image')) unset($args['image']);
-		if(!\dash\app::isset_request('status')) unset($args['status']);
+		// if(!\dash\app::isset_request('status')) unset($args['status']);
 
 
 		if(!empty($args))
