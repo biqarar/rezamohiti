@@ -33,10 +33,8 @@
 <label for='title'>{%trans "title"%}</label>
 <select name="title" class="select ui dropdown search addition" id="title">
   <option value="">{%trans "Add or select"%}</option>
-  {%for key, value in listtitles%}
-    {%if value.title%}
-    <option value="{{value.title}}"{%if value.title == dataRow.title %} selected{%endif%}>{{value.title}}</option>
-    {%endif%}
+  {%for key, value in myList.title%}
+    <option value="{{value}}" {%if value == dataRow.title %} selected{%endif%}>{{value}}</option>
   {%endfor%}
 </select>
 {%endblock%}
@@ -45,10 +43,8 @@
 <label for='subtitle'>{%trans "subtitle"%}</label>
 <select name="subtitle" class="select ui dropdown search addition" id="subtitle">
   <option value="">{%trans "Add or select"%}</option>
-  {%for key, value in listsubtitles%}
-    {%if value.subtitle%}
-    <option value="{{value.subtitle}}"{%if value.subtitle == dataRow.subtitle %} selected{%endif%}>{{value.subtitle}}</option>
-    {%endif%}
+  {%for key, value in myList.subtitle%}
+    <option value="{{value}}"{%if value == dataRow.subtitle %} selected{%endif%}>{{value}}</option>
   {%endfor%}
 </select>
 {%endblock%}
@@ -58,10 +54,10 @@
 <label for='cat'>{%trans "cat"%}</label>
 <select name="cat" class="select ui dropdown search addition" id="cat">
   <option value="">{%trans "Add or select"%}</option>
-  {%for key, value in listcats%}
-    {%if value.cat%}
-    <option value="{{value.cat}}"{%if value.cat == dataRow.cat %} selected{%endif%}>{{value.cat}}</option>
-    {%endif%}
+  {%for key, value in myList.cat%}
+
+    <option value="{{value}}" {%if value == dataRow.cat %} selected{%endif%}>{{value}}</option>
+
   {%endfor%}
 </select>
 {%endblock%}
@@ -70,10 +66,10 @@
 <label for='cat2'>{%trans "cat2"%}</label>
 <select name="cat2" class="select ui dropdown search addition" id="cat2">
   <option value="">{%trans "Add or select"%}</option>
-  {%for key, value in listcat2s%}
-    {%if value.cat2%}
-    <option value="{{value.cat2}}"{%if value.cat2 == dataRow.cat2 %} selected{%endif%}>{{value.cat2}}</option>
-    {%endif%}
+  {%for key, value in myList.cat2%}
+
+    <option value="{{value}}" {%if value == dataRow.cat2 %} selected{%endif%}>{{value}}</option>
+
   {%endfor%}
 </select>
 {%endblock%}
@@ -82,10 +78,10 @@
 <label for='size'>{%trans "size"%}</label>
 <select name="size" class="select ui dropdown search addition" id="size">
   <option value="">{%trans "Add or select"%}</option>
-  {%for key, value in listsizes%}
-    {%if value.size%}
-    <option value="{{value.size}}"{%if value.size == dataRow.size %} selected{%endif%}>{{value.size}}</option>
-    {%endif%}
+  {%for key, value in myList.size%}
+
+    <option value="{{value}}" {%if value == dataRow.size %} selected{%endif%}>{{value}}</option>
+
   {%endfor%}
 </select>
 {%endblock%}
