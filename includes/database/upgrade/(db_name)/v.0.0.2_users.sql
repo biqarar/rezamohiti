@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `bio` text CHARACTER SET utf8mb4 NULL DEFAULT NULL;
