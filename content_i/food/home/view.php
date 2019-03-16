@@ -63,6 +63,11 @@ class view
 			$args['cat2'] = \dash\request::get('cat2');
 		}
 
+		if(\dash\request::get('user'))
+		{
+			$args['user_id'] = \dash\request::get('user');
+		}
+
 		if(\dash\request::get('size'))
 		{
 			$args['size'] = \dash\request::get('size');

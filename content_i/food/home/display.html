@@ -53,6 +53,7 @@
     <thead>
       <tr>
         <th class="">#</th>
+        <th class="">{%trans "User"%}</th>
         <th class="s0" data-sort="{{sortLink.image.order}}"><a href="{{sortLink.image.link}}">{%trans "image"%}</a></th>
         <th class="" data-sort="{{sortLink.title.order}}"><a href="{{sortLink.title.link}}">{%trans "title"%}</a></th>
         <th class="s0" data-sort="{{sortLink.subtitle.order}}"><a href="{{sortLink.subtitle.link}}">{%trans "subtitle"%}</a></th>
@@ -71,6 +72,8 @@
       {%for key, value in dataTable%}
       <tr>
         <td class="" ><a href="{{url.this}}/edit?id={{value.id}}"> <i class="sf-edit"></i> {{value.id | fitNumber}}</a></td>
+        <td class="" >{%if value.avatar%}<img src="{{value.avatar}}" class="avatar">{%endif%} <b><a href="{{url.this}}?user={{value.user_id}}">{{value.displayname}}</a></b></td>
+
         <td class="s0" >{%if value.image%}<img src="{{value.image}}" class="avatar">{%endif%}</td>
         <td class="" ><a href="{{url.this}}?title={{value.title}}">{{value.title}}</a></td>
         <td class="s0" ><a href="{{url.this}}?subtitle={{value.subtitle}}">{{value.subtitle}}</a></td>

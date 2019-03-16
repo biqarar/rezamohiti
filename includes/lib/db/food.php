@@ -65,6 +65,8 @@ class food
 				food.cat2 LIKE ('%__string__%') OR
 				food.size LIKE ('%__string__%')
 			",
+			'public_show_field' => "food.*, users.displayname, users.avatar",
+			'master_join' => "INNER JOIN users ON users.id = food.user_id"
 		];
 
 		if(!is_array($_option))
