@@ -14,26 +14,28 @@
 
 
 {%block posts%}
-  <div class="postListPreview">
-    <div class="postMainContent">
-
-{%if datarow.type == 'post' %}
-{%if datarow.meta.thumb%}
-     <img src="{{datarow.meta.thumb}}" alt="{{datarow.title | raw}}">
-{%endif%}
-  <h2><a href="{{datarow.url}}">{{datarow.title | raw}}</a></h2>
+<article>
+  <header>
+    <h2><a href="{{datarow.link}}">{{datarow.title}}</a></h2>
+    <div class="meta">
 {%if datarow.subtitle%}
-    <div class="mB10 fs09">{{datarow.subtitle}}</div>
+      <div class="fs09">{{datarow.subtitle}}</div>
 {%endif%}
-    <p class="msg">{{datarow.excerpt}}</p>
+      <time datetime="{{datarow.publishdate}}">{{post.publishdate | dt('human', 'month')}}</time>
+    </div>
+  </header>
+  <section>
+{%if datarow.meta.thumb%}
+  <a href="{{datarow.link}}" class="thumb">
+      <img src="{{datarow.meta.thumb}}" alt="{{datarow.title}}">
+  </a>
 {%endif%}
-    <div class="mB20">
-      {{datarow.content | raw}}
+    <p class="msg fs09">{{datarow.excerpt}}</p>
+    <div>
+{{datarow.content | raw}}
     </div>
-    </div>
-    {{block('imagegallery')}}
 
-    <div class="tagBox msg simple">{{tags({"format" : 'html'})}}</div>
+{{block('imagegallery')}}
 
 {%if datarow.type == 'post' and datarow.datemodified%}
     <div class='msg simple f mT20'>
@@ -41,15 +43,15 @@
       <div class="cauto os"><a href="{{url.base}}/n/{{datarow.id}}" title='{%trans "For share via social networks"%}'>{%trans "News Code"%} <span class="txtB">{{datarow.id}}</span></a></div>
     </div>
 {%endif%}
-
-<div class="msg">
+    <div class="tagBox msg simple">{{tags({"format" : 'html'})}}</div>
+    <div class="msg">
 {%include 'content/template/shareBox.html'%}
-</div>
-
+    </div>
 {{block('postSimilar')}}
 {{block('setPostComment')}}
 
-  </div>
+  </section>
+</article>
 {%endblock%}
 
 
