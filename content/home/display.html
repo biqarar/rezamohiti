@@ -7,13 +7,18 @@
 <article>
   <header>
     <h2><a href="{{post.link}}">{{post.title}}</a></h2>
-    <div class="meta"><time datetime="{{post.publishdate}}">{{post.publishdate | dt}}</time></div>
+    <div class="meta">
+{%if datarow.subtitle%}
+      <div class="fs09">{{datarow.subtitle}}</div>
+{%endif%}
+      <time datetime="{{post.publishdate}}">{{post.publishdate | dt('human', 'month')}}</time>
+    </div>
   </header>
   <section>
 {%if post.meta.thumb%}
-	<a href="{{post.link}}" class="thumb">
+    <a href="{{post.link}}" class="thumb">
       <img src="{{post.meta.thumb}}" alt="{{post.title}}">
-	</a>
+    </a>
 {%endif%}
     <p>{{post.excerpt}}</p>
     <div class="more"><a href="{{post.link}}">{%trans "Keep Reading"%} <span class="sf-angle-double-right"></span></a></div>

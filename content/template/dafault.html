@@ -80,7 +80,7 @@
 
 {%block imagegallery%}
   {%if datarow.meta.gallery%}
-    <div id="lightgallery">
+    <div class="gallery" id="lightgallery">
       {%for key, myUrl in datarow.meta.gallery%}
         {%if myUrl ends with '.jpg' or myUrl ends with '.png' or myUrl ends with '.gif'%}
           <a data-action href="{{myUrl}}"><img src="{{myUrl}}" alt="{{datarow.title | raw}}"></a>
