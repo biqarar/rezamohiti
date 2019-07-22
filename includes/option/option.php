@@ -19,6 +19,10 @@ self::$language =
  * system default lanuage
  */
 
+self::$config['site']['title']                 = "Reza Mohiti";
+self::$config['site']['desc']                  = "Reza Mohiti";
+self::$config['site']['slogan']                = "Reza Mohiti";
+
 
 self::$config['redirect']                     = '';
 
