@@ -1,16 +1,12 @@
-{%extends display.dash%}
+{%extends display.main%}
 
-{%block body%}
-<div class="tbox">
-  <a href="{{url.here}}/" data-direct class="btn primary">{%trans "Back"%}</a>
-</div>
-<div class="cbox">
+{%block page%}
+<form method="get" action="{{url.this}}" data-direct data-action class="mT50">
 
-<div class="pA50">
-<form method="get" class="f justify-center fs18" action="{{url.this}}" data-direct data-action>
-  <div class="input c5 s12">
-    <label for="nationalcode" class="mB20">{% trans "National code"%}</label>
-    <input type="number" id="nationalcode" name="nationalcode" placeholder='{% trans "National code"%}' value="{{requestGET.nationalcode}}">
+    <label for="nationalcode">{% trans "National code"%}</label>
+    <div class="input">
+      <input type="number" id="nationalcode" name="nationalcode" placeholder='{% trans "National code"%}' value="{{requestGET.nationalcode}}">
+    </div>
 
     <button class="btn primary block mT10">{%trans "Check"%}</button>
     <div class="">
@@ -32,8 +28,8 @@
       {%endif%}
 
     </div>
-  </div>
+
 </form>
-</div>
+
 
 {%endblock%}

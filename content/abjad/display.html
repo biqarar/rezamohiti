@@ -1,16 +1,14 @@
-{%extends display.dash%}
+{%extends display.main%}
 
-{%block body%}
-<div class="tbox">
-  <a href="{{url.here}}/" data-direct class="btn primary">{%trans "Back"%}</a>
-</div>
-<div class="cbox">
+{%block page%}
 
-<div class="pA50">
-<form method="get" class="f justify-center fs18" action="{{url.this}}" data-direct data-action>
-  <div class="input c5 s12">
-    <label for="text" class="mB20">{% trans "Text"%}</label>
-    <input type="text" id="text" name="text" placeholder='{% trans "Your text"%}' value="{{requestGET.text}}">
+
+<form method="get" class="mT50" action="{{url.this}}" data-direct data-action>
+
+    <label for="text">{% trans "Text"%}</label>
+    <div class="input">
+      <input type="text" id="text" name="text" placeholder='{% trans "Your text"%}' value="{{requestGET.text}}">
+    </div>
 
     <button class="btn primary block mT10">{%trans "Calc"%}</button>
     <div class="">
@@ -22,8 +20,8 @@
       {%endif%}
     </div>
 
-  </div>
+
 </form>
-</div>
+
 
 {%endblock%}
