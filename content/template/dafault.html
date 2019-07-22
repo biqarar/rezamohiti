@@ -21,7 +21,7 @@
 {%if datarow.subtitle%}
       <div class="fs09">{{datarow.subtitle}}</div>
 {%endif%}
-      <time datetime="{{datarow.publishdate}}">{{post.publishdate | dt('human', 'month')}}</time>
+      <time datetime="{{datarow.publishdate}}">{{datarow.publishdate | dt('human', 'month')}}</time>
     </div>
   </header>
   <section>
