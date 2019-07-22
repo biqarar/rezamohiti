@@ -10,8 +10,6 @@ class view
 		\dash\data::site_desc(T_("Reza Mohiti"));
 		\dash\data::site_slogan(T_("programer;)"));
 		\dash\data::page_desc(\dash\data::site_desc(). ' | '. \dash\data::site_slogan());
-		\dash\data::include_css(false);
-		\dash\data::bodyclass(null);
 	}
 }
 ?>

@@ -1,26 +1,26 @@
 {%extends display.mvc%}
 
-
-
 {%block body%}
 
+  <div class="blogEx">
+    <header data-scroll>
+      <h1><a href="{{url.kingdom}}">{{site.title}}</a></h1>
+      <h2>{{site.desc}}</h2>
+    </header>
+    <nav>
+      <a href="{{url.kingdom}}">{%trans "Homepage"%}</a>
+      <a href="{{url.kingdom}}/about">{%trans "About"%}</a>
+      <a href="{{url.kingdom}}/contact">{%trans "Contact"%}</a>
+    </nav>
 
- <div class="pA100 cn">
-  <div class="wrapper" data-xhr='wrapper'>
-{%block content%}
-   <div class="pageData">
-{%block pageTitle%}
-{%if page.title%}
-    <h2 class="pageTitle"><a href="{{url.pwd}}" class="sB3">{{page.title}}</a></h2>
-{%endif%}
-{%endblock%}
-{%block pageData%}{%endblock%}
+    <main data-xhr='main'>
+{%block page%}{%endblock%}
+    </main>
+
+    <footer>
+      <div class="copyright"><a href="{{url.kingdom}}">{{site.title}}</a></div>
+
+    </footer>
   </div>
+
 {%endblock%}
- </div>
-</div>
-
-{{block('pageFooter')}}
-{%endblock%}
-
-

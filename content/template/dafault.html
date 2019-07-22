@@ -1,10 +1,9 @@
 {%extends display.main%}
 
 
-{%block pageData%}
+{%block page%}
 
-
-{%if datarow.type == 'post' or datarow.type == 'page'%}
+{%if datarow.type == 'post' or datarow.type == 'page' %}
   {{block('posts')}}
 {%else%}
   {{block('terms')}}
@@ -15,36 +14,60 @@
 
 
 {%block posts%}
-  <div class="postPreview">
+  <div class="postListPreview">
     <div class="postMainContent">
 
-{%if datarow.type == 'post'%}
+{%if datarow.type == 'post' %}
 {%if datarow.meta.thumb%}
-     <img src="{{datarow.meta.thumb}}" alt="{{datarow.title | raw}}" class="floatRa thumb">
+     <img src="{{datarow.meta.thumb}}" alt="{{datarow.title | raw}}">
 {%endif%}
+  <h2><a href="{{datarow.url}}">{{datarow.title | raw}}</a></h2>
 {%if datarow.subtitle%}
-    <div class="txtB mB10">{{datarow.subtitle}}</div>
+    <div class="mB10 fs09">{{datarow.subtitle}}</div>
 {%endif%}
     <p class="msg">{{datarow.excerpt}}</p>
 {%endif%}
-
-    {{datarow.content | raw}}
+    <div class="mB20">
+      {{datarow.content | raw}}
+    </div>
     </div>
     {{block('imagegallery')}}
-    <hr>
+
     <div class="tagBox msg simple">{{tags({"format" : 'html'})}}</div>
 
 {%if datarow.type == 'post' and datarow.datemodified%}
     <div class='msg simple f mT20'>
-      <div class="c"><time datetime="{{datarow.datemodified}}">{{datarow.publishdate | dt }}</time></div>
+      <div class="c"><time datetime="{{datarow.datemodified}}">{{datarow.publishdate | dt(true)}}</time></div>
       <div class="cauto os"><a href="{{url.base}}/n/{{datarow.id}}" title='{%trans "For share via social networks"%}'>{%trans "News Code"%} <span class="txtB">{{datarow.id}}</span></a></div>
     </div>
 {%endif%}
 
+<div class="msg">
+{%include 'content/template/shareBox.html'%}
+</div>
+
+{{block('postSimilar')}}
 {{block('setPostComment')}}
+
   </div>
 {%endblock%}
 
+
+
+{%block postSimilar%}
+    {%set myPostSimilar = posts({"mode" : "similar", "post_id" : datarow.id})%}
+
+    {%if myPostSimilar%}
+      <nav class="msg">
+        <h4 class="mB20-f">{%trans "Recommended for you"%}</h4>
+
+        {%for key, value in myPostSimilar%}
+        <a class="block" href="{{url.kingdom}}/n/{{value.id}}">{{value.title}}</a>
+
+        {%endfor%}
+      </nav>
+    {%endif%}
+{%endblock%}
 
 
 {%block terms%}
@@ -74,7 +97,7 @@
         {%elseif myUrl ends with '.mp3' %}
           <audio controls><source src="{{myUrl}}" type="audio/mpeg"></audio>
         {%elseif myUrl ends with '.pdf' %}
-        <a href="{{myUrl}}" class="btn pA25">PDF</a>
+        <a href="{{myUrl}}" class="btn lg mT25 primary">{%trans "Download"%} {%trans "PDF"%}</a>
         {%else%}
         {%endif%}
       {%endfor%}
@@ -119,60 +142,7 @@
 
 
 {%block setPostComment%}
-{%if datarow.comment == 'open'%}
-<h2>{%trans "Comment"%}</h2>
-<div class="f justify-center">
-
-<form class="c5" method="post" data-clear autocomplete="off" action="{{url.base}}/comment">
-
-  <input type="hidden" name="post_id" class="hide" value="{{datarow.id}}">
-{%if login.id %}
-{%else%}
-    <div class="f">
-      <div class="c pRa5">
-
-        <div class="input">
-         <label class="addon" for="name">{%trans "Name"%}</label>
-         <input type="text" name="name" id="name" placeholder='{%trans "Full Name"%}' maxlength='40' value="{{user.displayname}}">
-        </div>
-
-      </div>
-      <div class="c">
-        <div class="input">
-         <label class="addon" for="mobile">{%trans "Mobile"%}</label>
-         <input type="tel" name="mobile" id="mobile" placeholder='{%trans "Mobile"%}' maxlength="13" autocomplete="off" data-validity='{%trans "Please enter valid mobile number. `:val` is incorrect"%}' value="{{user.mobile}}">
-        </div>
-      </div>
-
-      <input type="text" name="username" class="hide" value="">
-    </div>
-{%endif%}
-    <div class="f">
-      <div class="c">
-         <textarea class="c txt mT5" name="content" placeholder='{%trans "Your Message"%}' rows="8" minlength="5" maxlength="1000" data-resizable></textarea>
-      </div>
-    </div>
-    <div class="f">
-      <div class="c">
-        <div class="input mTB10">
-         <button type="submit" name="submit-contact" class="btn block primary">{%trans "Send"%}</button>
-        </div>
-      </div>
-    </div>
-  </form>
-
-
-
-</div>
-
-{%set commentList = comments({"limit" : 60}) %}
-{%if commentList%}
-  {%for key, value in commentList%}
-  <div class="msg">
-    <p>{{value.content}}</p>
-  </div>
-  {%endfor%}
-{%endif%}
-
-{%endif%}
+{%include display.commentadd%}
+{%include display.commentlist%}
 {%endblock%}
+

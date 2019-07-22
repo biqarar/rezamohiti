@@ -1,42 +1,24 @@
-{%extends display.mvc%}
-
-{%block content%}
-<div class="tbox">
-  <div class="f">
-    <a href="{{url.here}}/nationalcode" data-direct class="btn mLa5 c primary">{%trans "Check and Generate National code"%}</a>
-    <a href="{{url.here}}/abjad" data-direct class="btn mLa5 c primary">{%trans "Abjad"%}</a>
-
-    <a href="{{url.here}}/i/food" data-direct class="btn mLa5 c success block">{%trans "Food"%}</a>
-  </div>
+{%extends display.main%}
 
 
-</div>
-
-<div class="pA50">
-
-
-{%if allPostList %}
-<article class="postListPreview">
-  {%for key, value in allPostList%}
-    <section class="f">
-{%if value.meta.thumb%}
-      <div class="cauto s12 pRa10 txtC">
-        <a href="{{value.link}}"><img src="{{value.meta.thumb}}" alt="{{value.title}}" width="150px"></a>
-      </div>
+{%block page%}
+{%set homePagePost = posts({"limit" : 10})%}
+{%for key, post in homePagePost%}
+<article>
+  <header>
+    <h2><a href="{{post.link}}">{{post.title}}</a></h2>
+    <div class="meta"><time datetime="{{post.publishdate}}">{{post.publishdate | dt}}</time></div>
+  </header>
+  <section>
+{%if post.meta.thumb%}
+	<a href="{{post.link}}" class="thumb">
+      <img src="{{post.meta.thumb}}" alt="{{post.title}}">
+	</a>
 {%endif%}
-      <div class="c s12">
-        <h3><a href="{{value.link}}">{{value.title}}</a></h3>
-        <p>{{value.content|raw}}</p>
-        <p>{{value.datecreated|dt()}}</p>
-      </div>
-    </section>
-    <hr>
-  {%endfor%}
+    <p>{{post.excerpt}}</p>
+    <div class="more"><a href="{{post.link}}">{%trans "Keep Reading"%} <span class="sf-angle-double-right"></span></a></div>
+  </section>
 </article>
-
-</div>
-
-{%include display.pagination%}
-{%endif%}
-
+{%endfor%}
 {%endblock%}
+
