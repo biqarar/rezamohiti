@@ -23,6 +23,7 @@ self::$config['site']['title']                 = "Reza Mohiti";
 self::$config['site']['desc']                  = "Reza Mohiti";
 self::$config['site']['slogan']                = "Reza Mohiti";
 
+self::$config['billing_page'] = true;
 
 self::$config['redirect']                     = '';
 
