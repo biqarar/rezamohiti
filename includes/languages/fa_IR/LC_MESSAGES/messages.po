@@ -1113,7 +1113,7 @@ msgstr "رنگ تگ نادرست"
 #: dash/addons/content_cms/terms/model.php:169
 #: dash/addons/content_support/ticket/tags/model.php:151
 msgid "Term successfully edited"
-msgstr "ترم با موفقتی ویرایش شد"
+msgstr "عبارت با موفقیت ویرایش شد"
 
 #: dash/addons/content_cms/terms/model.php:182
 #: dash/addons/content_support/ticket/tags/model.php:155
