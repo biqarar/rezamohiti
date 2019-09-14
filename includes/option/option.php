@@ -99,4 +99,10 @@ self::$social['telegram']['status']     = true;
 // self::$social['telegram']['debug']      = true;
 // enable tunnel
 self::$social['telegram']['tunnel']     = true;
+
+self::$config['payir']['status'] = true;
+self::$config['payir']['api']    = "59f8dc71f3d6bb9eb177947a438afe1a";
+self::$config['billing_page']   = true;
+self::$config['billing_charge'] = true;
+self::$config['address_page']   = true;
 ?>
