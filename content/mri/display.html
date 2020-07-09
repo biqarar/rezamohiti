@@ -1,0 +1,18 @@
+{%extends display.main%}
+
+{%block page%}
+<p>
+  تصاویری از اولین تجربه MRI بنده
+</p>
+<p>
+  ۲۷۸ تا عکسه!
+</p>
+
+
+{%for i in 1..278%}
+<a href="{{url.static}}/mri/{{i}}.jpg" target="_blank">
+  <img src="{{url.static}}/mri/{{i}}.jpg">
+</a>
+{%endfor%}
+
+{%endblock%}
